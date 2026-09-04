@@ -3,14 +3,14 @@ This repository contains analysis code associated with the manuscript
 
 ## Repository structure
 
-- `scRNAseq/` — single-cell RNA-sequencing processing, integration,
+- `scRNAseq` — single-cell RNA-sequencing processing, integration,
   aneuploidy inference and downstream analyses.
-- `image_analysis/` — quantitative analysis of microscopy and imaging data.
-- `environments/` — software environment files used for the analyses.
+- `image_analysis` — quantitative analysis of microscopy and imaging data.
+- `environments` — software environment files used for the analyses.
 
 ## scRNA-seq analysis
 
-The `scRNAseq/` directory contains scripts and notebooks for:
+Directories 1-9 contain scripts and notebooks related to scRNAseq analysis:
 
 1. Quality control and doublet detection
 2. Per-sample scRNA-seq processing
