@@ -1,0 +1,64 @@
+# macOS
+.DS_Store
+
+# R workspace / temporary files
+.RData
+.RDataTmp*
+.Rhistory
+.Rproj.user/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.pyc
+
+# Large analysis/data files
+*.h5ad
+*.h5
+*.loom
+*.bam
+*.bai
+*.fastq
+*.fastq.gz
+*.vcf
+*.vcf.gz
+
+# Temporary files
+*.log
+*.tmp# macOS
+.DS_Store
+
+# Jupyter / Python
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+
+# R
+.Rhistory
+.RData
+.Rproj.user/
+
+# Large sequencing / single-cell files
+*.h5ad
+*.h5
+*.loom
+*.bam
+*.bai
+*.fastq
+*.fastq.gz
+*.vcf
+*.vcf.gz
+
+# Serialized/intermediate objects
+*.pkl
+*.pickle
+
+# Logs / temporary files
+*.log
+*.tmp
+
+# Common output folders
+output/
+results/
