@@ -1,5 +1,3 @@
-# Distinct fates of aneuploid cells shape human blastoid development
-
 This repository contains analysis code associated with the manuscript
 **"Distinct fates of aneuploid cells shape human blastoid development."**
 
