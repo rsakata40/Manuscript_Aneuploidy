@@ -1,0 +1,334 @@
+/ceph.groups/mshahbazi.grp/rsakata/EXP58/code/setB_T3/cellpose_boundary.py:332: FutureWarning: DataFrameGroupBy.apply operated on the grouping columns. This behavior is deprecated, and in a future version of pandas the grouping columns will be excluded from the operation. Either pass `include_groups=False` to exclude the groupings or explicitly select the grouping columns after groupby to silence this warning.
+  pair_stats = gfp_df.groupby(["z", "label_i", "label_j"]).apply(calc_before_after).reset_index()
+/ceph.groups/mshahbazi.grp/rsakata/EXP58/code/setB_T3/cellpose_boundary.py:332: FutureWarning: DataFrameGroupBy.apply operated on the grouping columns. This behavior is deprecated, and in a future version of pandas the grouping columns will be excluded from the operation. Either pass `include_groups=False` to exclude the groupings or explicitly select the grouping columns after groupby to silence this warning.
+  pair_stats = gfp_df.groupby(["z", "label_i", "label_j"]).apply(calc_before_after).reset_index()
+/ceph.groups/mshahbazi.grp/rsakata/EXP58/code/setB_T3/cellpose_boundary.py:332: FutureWarning: DataFrameGroupBy.apply operated on the grouping columns. This behavior is deprecated, and in a future version of pandas the grouping columns will be excluded from the operation. Either pass `include_groups=False` to exclude the groupings or explicitly select the grouping columns after groupby to silence this warning.
+  pair_stats = gfp_df.groupby(["z", "label_i", "label_j"]).apply(calc_before_after).reset_index()
+/ceph.groups/mshahbazi.grp/rsakata/EXP58/code/setB_T3/cellpose_boundary.py:332: FutureWarning: DataFrameGroupBy.apply operated on the grouping columns. This behavior is deprecated, and in a future version of pandas the grouping columns will be excluded from the operation. Either pass `include_groups=False` to exclude the groupings or explicitly select the grouping columns after groupby to silence this warning.
+  pair_stats = gfp_df.groupby(["z", "label_i", "label_j"]).apply(calc_before_after).reset_index()
+/ceph.groups/mshahbazi.grp/rsakata/EXP58/code/setB_T3/cellpose_boundary.py:332: FutureWarning: DataFrameGroupBy.apply operated on the grouping columns. This behavior is deprecated, and in a future version of pandas the grouping columns will be excluded from the operation. Either pass `include_groups=False` to exclude the groupings or explicitly select the grouping columns after groupby to silence this warning.
+  pair_stats = gfp_df.groupby(["z", "label_i", "label_j"]).apply(calc_before_after).reset_index()
+Traceback (most recent call last):
+  File "/ceph.groups/mshahbazi.grp/rsakata/EXP58/code/setB_T3/cellpose_boundary.py", line 98, in main
+    process_single_file(fpath, sample)
+  File "/ceph.groups/mshahbazi.grp/rsakata/EXP58/code/setB_T3/cellpose_boundary.py", line 122, in process_single_file
+    img = reorder_tiff_to_zcxy(img)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/ceph.groups/mshahbazi.grp/rsakata/EXP58/code/setB_T3/cellpose_boundary.py", line 64, in reorder_tiff_to_zcxy
+    new_order = [dim_map['Z'], dim_map['C'], dim_map['Y'], dim_map['X']]
+                                             ~~~~~~~^^^^^
+KeyError: 'Y'
+Traceback (most recent call last):
+  File "/ceph.groups/mshahbazi.grp/rsakata/EXP58/code/setB_T3/cellpose_boundary.py", line 98, in main
+    process_single_file(fpath, sample)
+  File "/ceph.groups/mshahbazi.grp/rsakata/EXP58/code/setB_T3/cellpose_boundary.py", line 122, in process_single_file
+    img = reorder_tiff_to_zcxy(img)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/ceph.groups/mshahbazi.grp/rsakata/EXP58/code/setB_T3/cellpose_boundary.py", line 64, in reorder_tiff_to_zcxy
+    new_order = [dim_map['Z'], dim_map['C'], dim_map['Y'], dim_map['X']]
+                                             ~~~~~~~^^^^^
+KeyError: 'Y'
+/ceph.groups/mshahbazi.grp/rsakata/EXP58/code/setB_T3/cellpose_boundary.py:332: FutureWarning: DataFrameGroupBy.apply operated on the grouping columns. This behavior is deprecated, and in a future version of pandas the grouping columns will be excluded from the operation. Either pass `include_groups=False` to exclude the groupings or explicitly select the grouping columns after groupby to silence this warning.
+  pair_stats = gfp_df.groupby(["z", "label_i", "label_j"]).apply(calc_before_after).reset_index()
+Traceback (most recent call last):
+  File "/ceph.groups/mshahbazi.grp/rsakata/EXP58/code/setB_T3/cellpose_boundary.py", line 98, in main
+    process_single_file(fpath, sample)
+  File "/ceph.groups/mshahbazi.grp/rsakata/EXP58/code/setB_T3/cellpose_boundary.py", line 122, in process_single_file
+    img = reorder_tiff_to_zcxy(img)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/ceph.groups/mshahbazi.grp/rsakata/EXP58/code/setB_T3/cellpose_boundary.py", line 64, in reorder_tiff_to_zcxy
+    new_order = [dim_map['Z'], dim_map['C'], dim_map['Y'], dim_map['X']]
+                                             ~~~~~~~^^^^^
+KeyError: 'Y'
+Traceback (most recent call last):
+  File "/ceph.groups/mshahbazi.grp/rsakata/EXP58/code/setB_T3/cellpose_boundary.py", line 98, in main
+    process_single_file(fpath, sample)
+  File "/ceph.groups/mshahbazi.grp/rsakata/EXP58/code/setB_T3/cellpose_boundary.py", line 122, in process_single_file
+    img = reorder_tiff_to_zcxy(img)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/ceph.groups/mshahbazi.grp/rsakata/EXP58/code/setB_T3/cellpose_boundary.py", line 64, in reorder_tiff_to_zcxy
+    new_order = [dim_map['Z'], dim_map['C'], dim_map['Y'], dim_map['X']]
+                                             ~~~~~~~^^^^^
+KeyError: 'Y'
+Traceback (most recent call last):
+  File "/ceph.groups/mshahbazi.grp/rsakata/EXP58/code/setB_T3/cellpose_boundary.py", line 98, in main
+    process_single_file(fpath, sample)
+  File "/ceph.groups/mshahbazi.grp/rsakata/EXP58/code/setB_T3/cellpose_boundary.py", line 122, in process_single_file
+    img = reorder_tiff_to_zcxy(img)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/ceph.groups/mshahbazi.grp/rsakata/EXP58/code/setB_T3/cellpose_boundary.py", line 64, in reorder_tiff_to_zcxy
+    new_order = [dim_map['Z'], dim_map['C'], dim_map['Y'], dim_map['X']]
+                                             ~~~~~~~^^^^^
+KeyError: 'Y'
+Traceback (most recent call last):
+  File "/ceph.groups/mshahbazi.grp/rsakata/EXP58/code/setB_T3/cellpose_boundary.py", line 98, in main
+    process_single_file(fpath, sample)
+  File "/ceph.groups/mshahbazi.grp/rsakata/EXP58/code/setB_T3/cellpose_boundary.py", line 122, in process_single_file
+    img = reorder_tiff_to_zcxy(img)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/ceph.groups/mshahbazi.grp/rsakata/EXP58/code/setB_T3/cellpose_boundary.py", line 64, in reorder_tiff_to_zcxy
+    new_order = [dim_map['Z'], dim_map['C'], dim_map['Y'], dim_map['X']]
+                                             ~~~~~~~^^^^^
+KeyError: 'Y'
+/ceph.groups/mshahbazi.grp/rsakata/EXP58/code/setB_T3/cellpose_boundary.py:332: FutureWarning: DataFrameGroupBy.apply operated on the grouping columns. This behavior is deprecated, and in a future version of pandas the grouping columns will be excluded from the operation. Either pass `include_groups=False` to exclude the groupings or explicitly select the grouping columns after groupby to silence this warning.
+  pair_stats = gfp_df.groupby(["z", "label_i", "label_j"]).apply(calc_before_after).reset_index()
+/ceph.groups/mshahbazi.grp/rsakata/EXP58/code/setB_T3/cellpose_boundary.py:332: FutureWarning: DataFrameGroupBy.apply operated on the grouping columns. This behavior is deprecated, and in a future version of pandas the grouping columns will be excluded from the operation. Either pass `include_groups=False` to exclude the groupings or explicitly select the grouping columns after groupby to silence this warning.
+  pair_stats = gfp_df.groupby(["z", "label_i", "label_j"]).apply(calc_before_after).reset_index()
+/ceph.groups/mshahbazi.grp/rsakata/EXP58/code/setB_T3/cellpose_boundary.py:332: FutureWarning: DataFrameGroupBy.apply operated on the grouping columns. This behavior is deprecated, and in a future version of pandas the grouping columns will be excluded from the operation. Either pass `include_groups=False` to exclude the groupings or explicitly select the grouping columns after groupby to silence this warning.
+  pair_stats = gfp_df.groupby(["z", "label_i", "label_j"]).apply(calc_before_after).reset_index()
+/ceph.groups/mshahbazi.grp/rsakata/EXP58/code/setB_T3/cellpose_boundary.py:332: FutureWarning: DataFrameGroupBy.apply operated on the grouping columns. This behavior is deprecated, and in a future version of pandas the grouping columns will be excluded from the operation. Either pass `include_groups=False` to exclude the groupings or explicitly select the grouping columns after groupby to silence this warning.
+  pair_stats = gfp_df.groupby(["z", "label_i", "label_j"]).apply(calc_before_after).reset_index()
+/ceph.groups/mshahbazi.grp/rsakata/EXP58/code/setB_T3/cellpose_boundary.py:332: FutureWarning: DataFrameGroupBy.apply operated on the grouping columns. This behavior is deprecated, and in a future version of pandas the grouping columns will be excluded from the operation. Either pass `include_groups=False` to exclude the groupings or explicitly select the grouping columns after groupby to silence this warning.
+  pair_stats = gfp_df.groupby(["z", "label_i", "label_j"]).apply(calc_before_after).reset_index()
+Traceback (most recent call last):
+  File "/ceph.groups/mshahbazi.grp/rsakata/EXP58/code/setB_T3/cellpose_boundary.py", line 98, in main
+    process_single_file(fpath, sample)
+  File "/ceph.groups/mshahbazi.grp/rsakata/EXP58/code/setB_T3/cellpose_boundary.py", line 122, in process_single_file
+    img = reorder_tiff_to_zcxy(img)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/ceph.groups/mshahbazi.grp/rsakata/EXP58/code/setB_T3/cellpose_boundary.py", line 64, in reorder_tiff_to_zcxy
+    new_order = [dim_map['Z'], dim_map['C'], dim_map['Y'], dim_map['X']]
+                                             ~~~~~~~^^^^^
+KeyError: 'Y'
+Traceback (most recent call last):
+  File "/ceph.groups/mshahbazi.grp/rsakata/EXP58/code/setB_T3/cellpose_boundary.py", line 98, in main
+    process_single_file(fpath, sample)
+  File "/ceph.groups/mshahbazi.grp/rsakata/EXP58/code/setB_T3/cellpose_boundary.py", line 122, in process_single_file
+    img = reorder_tiff_to_zcxy(img)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/ceph.groups/mshahbazi.grp/rsakata/EXP58/code/setB_T3/cellpose_boundary.py", line 64, in reorder_tiff_to_zcxy
+    new_order = [dim_map['Z'], dim_map['C'], dim_map['Y'], dim_map['X']]
+                                             ~~~~~~~^^^^^
+KeyError: 'Y'
+Traceback (most recent call last):
+  File "/ceph.groups/mshahbazi.grp/rsakata/EXP58/code/setB_T3/cellpose_boundary.py", line 98, in main
+    process_single_file(fpath, sample)
+  File "/ceph.groups/mshahbazi.grp/rsakata/EXP58/code/setB_T3/cellpose_boundary.py", line 122, in process_single_file
+    img = reorder_tiff_to_zcxy(img)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/ceph.groups/mshahbazi.grp/rsakata/EXP58/code/setB_T3/cellpose_boundary.py", line 64, in reorder_tiff_to_zcxy
+    new_order = [dim_map['Z'], dim_map['C'], dim_map['Y'], dim_map['X']]
+                                             ~~~~~~~^^^^^
+KeyError: 'Y'
+Traceback (most recent call last):
+  File "/ceph.groups/mshahbazi.grp/rsakata/EXP58/code/setB_T3/cellpose_boundary.py", line 98, in main
+    process_single_file(fpath, sample)
+  File "/ceph.groups/mshahbazi.grp/rsakata/EXP58/code/setB_T3/cellpose_boundary.py", line 122, in process_single_file
+    img = reorder_tiff_to_zcxy(img)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/ceph.groups/mshahbazi.grp/rsakata/EXP58/code/setB_T3/cellpose_boundary.py", line 64, in reorder_tiff_to_zcxy
+    new_order = [dim_map['Z'], dim_map['C'], dim_map['Y'], dim_map['X']]
+                                             ~~~~~~~^^^^^
+KeyError: 'Y'
+Traceback (most recent call last):
+  File "/ceph.groups/mshahbazi.grp/rsakata/EXP58/code/setB_T3/cellpose_boundary.py", line 98, in main
+    process_single_file(fpath, sample)
+  File "/ceph.groups/mshahbazi.grp/rsakata/EXP58/code/setB_T3/cellpose_boundary.py", line 122, in process_single_file
+    img = reorder_tiff_to_zcxy(img)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/ceph.groups/mshahbazi.grp/rsakata/EXP58/code/setB_T3/cellpose_boundary.py", line 64, in reorder_tiff_to_zcxy
+    new_order = [dim_map['Z'], dim_map['C'], dim_map['Y'], dim_map['X']]
+                                                           ~~~~~~~^^^^^
+KeyError: 'X'
+Traceback (most recent call last):
+  File "/ceph.groups/mshahbazi.grp/rsakata/EXP58/code/setB_T3/cellpose_boundary.py", line 98, in main
+    process_single_file(fpath, sample)
+  File "/ceph.groups/mshahbazi.grp/rsakata/EXP58/code/setB_T3/cellpose_boundary.py", line 122, in process_single_file
+    img = reorder_tiff_to_zcxy(img)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/ceph.groups/mshahbazi.grp/rsakata/EXP58/code/setB_T3/cellpose_boundary.py", line 64, in reorder_tiff_to_zcxy
+    new_order = [dim_map['Z'], dim_map['C'], dim_map['Y'], dim_map['X']]
+                                             ~~~~~~~^^^^^
+KeyError: 'Y'
+Traceback (most recent call last):
+  File "/ceph.groups/mshahbazi.grp/rsakata/EXP58/code/setB_T3/cellpose_boundary.py", line 98, in main
+    process_single_file(fpath, sample)
+  File "/ceph.groups/mshahbazi.grp/rsakata/EXP58/code/setB_T3/cellpose_boundary.py", line 122, in process_single_file
+    img = reorder_tiff_to_zcxy(img)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/ceph.groups/mshahbazi.grp/rsakata/EXP58/code/setB_T3/cellpose_boundary.py", line 64, in reorder_tiff_to_zcxy
+    new_order = [dim_map['Z'], dim_map['C'], dim_map['Y'], dim_map['X']]
+                                             ~~~~~~~^^^^^
+KeyError: 'Y'
+Traceback (most recent call last):
+  File "/ceph.groups/mshahbazi.grp/rsakata/EXP58/code/setB_T3/cellpose_boundary.py", line 98, in main
+    process_single_file(fpath, sample)
+  File "/ceph.groups/mshahbazi.grp/rsakata/EXP58/code/setB_T3/cellpose_boundary.py", line 122, in process_single_file
+    img = reorder_tiff_to_zcxy(img)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/ceph.groups/mshahbazi.grp/rsakata/EXP58/code/setB_T3/cellpose_boundary.py", line 64, in reorder_tiff_to_zcxy
+    new_order = [dim_map['Z'], dim_map['C'], dim_map['Y'], dim_map['X']]
+                                             ~~~~~~~^^^^^
+KeyError: 'Y'
+Traceback (most recent call last):
+  File "/ceph.groups/mshahbazi.grp/rsakata/EXP58/code/setB_T3/cellpose_boundary.py", line 98, in main
+    process_single_file(fpath, sample)
+  File "/ceph.groups/mshahbazi.grp/rsakata/EXP58/code/setB_T3/cellpose_boundary.py", line 122, in process_single_file
+    img = reorder_tiff_to_zcxy(img)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/ceph.groups/mshahbazi.grp/rsakata/EXP58/code/setB_T3/cellpose_boundary.py", line 64, in reorder_tiff_to_zcxy
+    new_order = [dim_map['Z'], dim_map['C'], dim_map['Y'], dim_map['X']]
+                                             ~~~~~~~^^^^^
+KeyError: 'Y'
+Traceback (most recent call last):
+  File "/ceph.groups/mshahbazi.grp/rsakata/EXP58/code/setB_T3/cellpose_boundary.py", line 98, in main
+    process_single_file(fpath, sample)
+  File "/ceph.groups/mshahbazi.grp/rsakata/EXP58/code/setB_T3/cellpose_boundary.py", line 122, in process_single_file
+    img = reorder_tiff_to_zcxy(img)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/ceph.groups/mshahbazi.grp/rsakata/EXP58/code/setB_T3/cellpose_boundary.py", line 64, in reorder_tiff_to_zcxy
+    new_order = [dim_map['Z'], dim_map['C'], dim_map['Y'], dim_map['X']]
+                                             ~~~~~~~^^^^^
+KeyError: 'Y'
+Traceback (most recent call last):
+  File "/ceph.groups/mshahbazi.grp/rsakata/EXP58/code/setB_T3/cellpose_boundary.py", line 98, in main
+    process_single_file(fpath, sample)
+  File "/ceph.groups/mshahbazi.grp/rsakata/EXP58/code/setB_T3/cellpose_boundary.py", line 122, in process_single_file
+    img = reorder_tiff_to_zcxy(img)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/ceph.groups/mshahbazi.grp/rsakata/EXP58/code/setB_T3/cellpose_boundary.py", line 64, in reorder_tiff_to_zcxy
+    new_order = [dim_map['Z'], dim_map['C'], dim_map['Y'], dim_map['X']]
+                                             ~~~~~~~^^^^^
+KeyError: 'Y'
+Traceback (most recent call last):
+  File "/ceph.groups/mshahbazi.grp/rsakata/EXP58/code/setB_T3/cellpose_boundary.py", line 98, in main
+    process_single_file(fpath, sample)
+  File "/ceph.groups/mshahbazi.grp/rsakata/EXP58/code/setB_T3/cellpose_boundary.py", line 122, in process_single_file
+    img = reorder_tiff_to_zcxy(img)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/ceph.groups/mshahbazi.grp/rsakata/EXP58/code/setB_T3/cellpose_boundary.py", line 64, in reorder_tiff_to_zcxy
+    new_order = [dim_map['Z'], dim_map['C'], dim_map['Y'], dim_map['X']]
+                                             ~~~~~~~^^^^^
+KeyError: 'Y'
+Traceback (most recent call last):
+  File "/ceph.groups/mshahbazi.grp/rsakata/EXP58/code/setB_T3/cellpose_boundary.py", line 98, in main
+    process_single_file(fpath, sample)
+  File "/ceph.groups/mshahbazi.grp/rsakata/EXP58/code/setB_T3/cellpose_boundary.py", line 122, in process_single_file
+    img = reorder_tiff_to_zcxy(img)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/ceph.groups/mshahbazi.grp/rsakata/EXP58/code/setB_T3/cellpose_boundary.py", line 64, in reorder_tiff_to_zcxy
+    new_order = [dim_map['Z'], dim_map['C'], dim_map['Y'], dim_map['X']]
+                                             ~~~~~~~^^^^^
+KeyError: 'Y'
+Traceback (most recent call last):
+  File "/ceph.groups/mshahbazi.grp/rsakata/EXP58/code/setB_T3/cellpose_boundary.py", line 98, in main
+    process_single_file(fpath, sample)
+  File "/ceph.groups/mshahbazi.grp/rsakata/EXP58/code/setB_T3/cellpose_boundary.py", line 122, in process_single_file
+    img = reorder_tiff_to_zcxy(img)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/ceph.groups/mshahbazi.grp/rsakata/EXP58/code/setB_T3/cellpose_boundary.py", line 64, in reorder_tiff_to_zcxy
+    new_order = [dim_map['Z'], dim_map['C'], dim_map['Y'], dim_map['X']]
+                                             ~~~~~~~^^^^^
+KeyError: 'Y'
+Traceback (most recent call last):
+  File "/ceph.groups/mshahbazi.grp/rsakata/EXP58/code/setB_T3/cellpose_boundary.py", line 98, in main
+    process_single_file(fpath, sample)
+  File "/ceph.groups/mshahbazi.grp/rsakata/EXP58/code/setB_T3/cellpose_boundary.py", line 122, in process_single_file
+    img = reorder_tiff_to_zcxy(img)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/ceph.groups/mshahbazi.grp/rsakata/EXP58/code/setB_T3/cellpose_boundary.py", line 64, in reorder_tiff_to_zcxy
+    new_order = [dim_map['Z'], dim_map['C'], dim_map['Y'], dim_map['X']]
+                                             ~~~~~~~^^^^^
+KeyError: 'Y'
+Traceback (most recent call last):
+  File "/ceph.groups/mshahbazi.grp/rsakata/EXP58/code/setB_T3/cellpose_boundary.py", line 98, in main
+    process_single_file(fpath, sample)
+  File "/ceph.groups/mshahbazi.grp/rsakata/EXP58/code/setB_T3/cellpose_boundary.py", line 122, in process_single_file
+    img = reorder_tiff_to_zcxy(img)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/ceph.groups/mshahbazi.grp/rsakata/EXP58/code/setB_T3/cellpose_boundary.py", line 64, in reorder_tiff_to_zcxy
+    new_order = [dim_map['Z'], dim_map['C'], dim_map['Y'], dim_map['X']]
+                                             ~~~~~~~^^^^^
+KeyError: 'Y'
+Traceback (most recent call last):
+  File "/ceph.groups/mshahbazi.grp/rsakata/EXP58/code/setB_T3/cellpose_boundary.py", line 98, in main
+    process_single_file(fpath, sample)
+  File "/ceph.groups/mshahbazi.grp/rsakata/EXP58/code/setB_T3/cellpose_boundary.py", line 122, in process_single_file
+    img = reorder_tiff_to_zcxy(img)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/ceph.groups/mshahbazi.grp/rsakata/EXP58/code/setB_T3/cellpose_boundary.py", line 64, in reorder_tiff_to_zcxy
+    new_order = [dim_map['Z'], dim_map['C'], dim_map['Y'], dim_map['X']]
+                                             ~~~~~~~^^^^^
+KeyError: 'Y'
+Traceback (most recent call last):
+  File "/ceph.groups/mshahbazi.grp/rsakata/EXP58/code/setB_T3/cellpose_boundary.py", line 98, in main
+    process_single_file(fpath, sample)
+  File "/ceph.groups/mshahbazi.grp/rsakata/EXP58/code/setB_T3/cellpose_boundary.py", line 122, in process_single_file
+    img = reorder_tiff_to_zcxy(img)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/ceph.groups/mshahbazi.grp/rsakata/EXP58/code/setB_T3/cellpose_boundary.py", line 64, in reorder_tiff_to_zcxy
+    new_order = [dim_map['Z'], dim_map['C'], dim_map['Y'], dim_map['X']]
+                                             ~~~~~~~^^^^^
+KeyError: 'Y'
+Traceback (most recent call last):
+  File "/ceph.groups/mshahbazi.grp/rsakata/EXP58/code/setB_T3/cellpose_boundary.py", line 98, in main
+    process_single_file(fpath, sample)
+  File "/ceph.groups/mshahbazi.grp/rsakata/EXP58/code/setB_T3/cellpose_boundary.py", line 122, in process_single_file
+    img = reorder_tiff_to_zcxy(img)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/ceph.groups/mshahbazi.grp/rsakata/EXP58/code/setB_T3/cellpose_boundary.py", line 64, in reorder_tiff_to_zcxy
+    new_order = [dim_map['Z'], dim_map['C'], dim_map['Y'], dim_map['X']]
+                                                           ~~~~~~~^^^^^
+KeyError: 'X'
+Traceback (most recent call last):
+  File "/ceph.groups/mshahbazi.grp/rsakata/EXP58/code/setB_T3/cellpose_boundary.py", line 98, in main
+    process_single_file(fpath, sample)
+  File "/ceph.groups/mshahbazi.grp/rsakata/EXP58/code/setB_T3/cellpose_boundary.py", line 122, in process_single_file
+    img = reorder_tiff_to_zcxy(img)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/ceph.groups/mshahbazi.grp/rsakata/EXP58/code/setB_T3/cellpose_boundary.py", line 64, in reorder_tiff_to_zcxy
+    new_order = [dim_map['Z'], dim_map['C'], dim_map['Y'], dim_map['X']]
+                                             ~~~~~~~^^^^^
+KeyError: 'Y'
+/ceph.groups/mshahbazi.grp/rsakata/EXP58/code/setB_T3/cellpose_boundary.py:332: FutureWarning: DataFrameGroupBy.apply operated on the grouping columns. This behavior is deprecated, and in a future version of pandas the grouping columns will be excluded from the operation. Either pass `include_groups=False` to exclude the groupings or explicitly select the grouping columns after groupby to silence this warning.
+  pair_stats = gfp_df.groupby(["z", "label_i", "label_j"]).apply(calc_before_after).reset_index()
+/ceph.groups/mshahbazi.grp/rsakata/EXP58/code/setB_T3/cellpose_boundary.py:332: FutureWarning: DataFrameGroupBy.apply operated on the grouping columns. This behavior is deprecated, and in a future version of pandas the grouping columns will be excluded from the operation. Either pass `include_groups=False` to exclude the groupings or explicitly select the grouping columns after groupby to silence this warning.
+  pair_stats = gfp_df.groupby(["z", "label_i", "label_j"]).apply(calc_before_after).reset_index()
+/ceph.groups/mshahbazi.grp/rsakata/EXP58/code/setB_T3/cellpose_boundary.py:332: FutureWarning: DataFrameGroupBy.apply operated on the grouping columns. This behavior is deprecated, and in a future version of pandas the grouping columns will be excluded from the operation. Either pass `include_groups=False` to exclude the groupings or explicitly select the grouping columns after groupby to silence this warning.
+  pair_stats = gfp_df.groupby(["z", "label_i", "label_j"]).apply(calc_before_after).reset_index()
+/ceph.groups/mshahbazi.grp/rsakata/EXP58/code/setB_T3/cellpose_boundary.py:332: FutureWarning: DataFrameGroupBy.apply operated on the grouping columns. This behavior is deprecated, and in a future version of pandas the grouping columns will be excluded from the operation. Either pass `include_groups=False` to exclude the groupings or explicitly select the grouping columns after groupby to silence this warning.
+  pair_stats = gfp_df.groupby(["z", "label_i", "label_j"]).apply(calc_before_after).reset_index()
+/ceph.groups/mshahbazi.grp/rsakata/EXP58/code/setB_T3/cellpose_boundary.py:332: FutureWarning: DataFrameGroupBy.apply operated on the grouping columns. This behavior is deprecated, and in a future version of pandas the grouping columns will be excluded from the operation. Either pass `include_groups=False` to exclude the groupings or explicitly select the grouping columns after groupby to silence this warning.
+  pair_stats = gfp_df.groupby(["z", "label_i", "label_j"]).apply(calc_before_after).reset_index()
+/ceph.groups/mshahbazi.grp/rsakata/EXP58/code/setB_T3/cellpose_boundary.py:332: FutureWarning: DataFrameGroupBy.apply operated on the grouping columns. This behavior is deprecated, and in a future version of pandas the grouping columns will be excluded from the operation. Either pass `include_groups=False` to exclude the groupings or explicitly select the grouping columns after groupby to silence this warning.
+  pair_stats = gfp_df.groupby(["z", "label_i", "label_j"]).apply(calc_before_after).reset_index()
+Traceback (most recent call last):
+  File "/ceph.groups/mshahbazi.grp/rsakata/EXP58/code/setB_T3/cellpose_boundary.py", line 98, in main
+    process_single_file(fpath, sample)
+  File "/ceph.groups/mshahbazi.grp/rsakata/EXP58/code/setB_T3/cellpose_boundary.py", line 122, in process_single_file
+    img = reorder_tiff_to_zcxy(img)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/ceph.groups/mshahbazi.grp/rsakata/EXP58/code/setB_T3/cellpose_boundary.py", line 64, in reorder_tiff_to_zcxy
+    new_order = [dim_map['Z'], dim_map['C'], dim_map['Y'], dim_map['X']]
+                                             ~~~~~~~^^^^^
+KeyError: 'Y'
+Traceback (most recent call last):
+  File "/ceph.groups/mshahbazi.grp/rsakata/EXP58/code/setB_T3/cellpose_boundary.py", line 98, in main
+    process_single_file(fpath, sample)
+  File "/ceph.groups/mshahbazi.grp/rsakata/EXP58/code/setB_T3/cellpose_boundary.py", line 122, in process_single_file
+    img = reorder_tiff_to_zcxy(img)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/ceph.groups/mshahbazi.grp/rsakata/EXP58/code/setB_T3/cellpose_boundary.py", line 64, in reorder_tiff_to_zcxy
+    new_order = [dim_map['Z'], dim_map['C'], dim_map['Y'], dim_map['X']]
+                                             ~~~~~~~^^^^^
+KeyError: 'Y'
+/ceph.groups/mshahbazi.grp/rsakata/EXP58/code/setB_T3/cellpose_boundary.py:332: FutureWarning: DataFrameGroupBy.apply operated on the grouping columns. This behavior is deprecated, and in a future version of pandas the grouping columns will be excluded from the operation. Either pass `include_groups=False` to exclude the groupings or explicitly select the grouping columns after groupby to silence this warning.
+  pair_stats = gfp_df.groupby(["z", "label_i", "label_j"]).apply(calc_before_after).reset_index()
+/ceph.groups/mshahbazi.grp/rsakata/EXP58/code/setB_T3/cellpose_boundary.py:332: FutureWarning: DataFrameGroupBy.apply operated on the grouping columns. This behavior is deprecated, and in a future version of pandas the grouping columns will be excluded from the operation. Either pass `include_groups=False` to exclude the groupings or explicitly select the grouping columns after groupby to silence this warning.
+  pair_stats = gfp_df.groupby(["z", "label_i", "label_j"]).apply(calc_before_after).reset_index()
+/ceph.groups/mshahbazi.grp/rsakata/EXP58/code/setB_T3/cellpose_boundary.py:332: FutureWarning: DataFrameGroupBy.apply operated on the grouping columns. This behavior is deprecated, and in a future version of pandas the grouping columns will be excluded from the operation. Either pass `include_groups=False` to exclude the groupings or explicitly select the grouping columns after groupby to silence this warning.
+  pair_stats = gfp_df.groupby(["z", "label_i", "label_j"]).apply(calc_before_after).reset_index()
+/ceph.groups/mshahbazi.grp/rsakata/EXP58/code/setB_T3/cellpose_boundary.py:332: FutureWarning: DataFrameGroupBy.apply operated on the grouping columns. This behavior is deprecated, and in a future version of pandas the grouping columns will be excluded from the operation. Either pass `include_groups=False` to exclude the groupings or explicitly select the grouping columns after groupby to silence this warning.
+  pair_stats = gfp_df.groupby(["z", "label_i", "label_j"]).apply(calc_before_after).reset_index()
+/ceph.groups/mshahbazi.grp/rsakata/EXP58/code/setB_T3/cellpose_boundary.py:332: FutureWarning: DataFrameGroupBy.apply operated on the grouping columns. This behavior is deprecated, and in a future version of pandas the grouping columns will be excluded from the operation. Either pass `include_groups=False` to exclude the groupings or explicitly select the grouping columns after groupby to silence this warning.
+  pair_stats = gfp_df.groupby(["z", "label_i", "label_j"]).apply(calc_before_after).reset_index()
+/ceph.groups/mshahbazi.grp/rsakata/EXP58/code/setB_T3/cellpose_boundary.py:332: FutureWarning: DataFrameGroupBy.apply operated on the grouping columns. This behavior is deprecated, and in a future version of pandas the grouping columns will be excluded from the operation. Either pass `include_groups=False` to exclude the groupings or explicitly select the grouping columns after groupby to silence this warning.
+  pair_stats = gfp_df.groupby(["z", "label_i", "label_j"]).apply(calc_before_after).reset_index()
+/ceph.groups/mshahbazi.grp/rsakata/EXP58/code/setB_T3/cellpose_boundary.py:332: FutureWarning: DataFrameGroupBy.apply operated on the grouping columns. This behavior is deprecated, and in a future version of pandas the grouping columns will be excluded from the operation. Either pass `include_groups=False` to exclude the groupings or explicitly select the grouping columns after groupby to silence this warning.
+  pair_stats = gfp_df.groupby(["z", "label_i", "label_j"]).apply(calc_before_after).reset_index()
+no seeds found in get_masks_torch - no masks found.
+no seeds found in get_masks_torch - no masks found.
+/ceph.groups/mshahbazi.grp/rsakata/EXP58/code/setB_T3/cellpose_boundary.py:332: FutureWarning: DataFrameGroupBy.apply operated on the grouping columns. This behavior is deprecated, and in a future version of pandas the grouping columns will be excluded from the operation. Either pass `include_groups=False` to exclude the groupings or explicitly select the grouping columns after groupby to silence this warning.
+  pair_stats = gfp_df.groupby(["z", "label_i", "label_j"]).apply(calc_before_after).reset_index()
+/ceph.groups/mshahbazi.grp/rsakata/EXP58/code/setB_T3/cellpose_boundary.py:332: FutureWarning: DataFrameGroupBy.apply operated on the grouping columns. This behavior is deprecated, and in a future version of pandas the grouping columns will be excluded from the operation. Either pass `include_groups=False` to exclude the groupings or explicitly select the grouping columns after groupby to silence this warning.
+  pair_stats = gfp_df.groupby(["z", "label_i", "label_j"]).apply(calc_before_after).reset_index()

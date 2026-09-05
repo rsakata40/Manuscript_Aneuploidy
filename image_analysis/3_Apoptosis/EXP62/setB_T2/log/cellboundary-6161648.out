@@ -1,0 +1,149 @@
+lmbwide.profile complete
+Job 6161648 on fmg103.lmb.internal
+Python 3.11.13
+/lmb/home/rsakata/anaconda3/envs/cellpose_env/bin/python
+CUDA available: True
+Torch CUDA runtime: 12.8
+Visible GPUs: 0
+Sat Jan 10 10:39:45 2026       
++---------------------------------------------------------------------------------------+
+| NVIDIA-SMI 535.86.10              Driver Version: 535.86.10    CUDA Version: 12.2     |
+|-----------------------------------------+----------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |         Memory-Usage | GPU-Util  Compute M. |
+|                                         |                      |               MIG M. |
+|=========================================+======================+======================|
+|   0  NVIDIA A100-SXM4-40GB          Off | 00000000:90:00.0 Off |                    0 |
+| N/A   35C    P0              56W / 400W |      4MiB / 40960MiB |      0%      Default |
+|                                         |                      |             Disabled |
++-----------------------------------------+----------------------+----------------------+
+                                                                                         
++---------------------------------------------------------------------------------------+
+| Processes:                                                                            |
+|  GPU   GI   CI        PID   Type   Process name                            GPU Memory |
+|        ID   ID                                                             Usage      |
+|=======================================================================================|
+|  No running processes found                                                           |
++---------------------------------------------------------------------------------------+
+
+
+Welcome to CellposeSAM, cellpose v
+cellpose version: 	4.0.6 
+platform:       	linux 
+python version: 	3.11.13 
+torch version:  	2.8.0+cu128! The neural network component of
+CPSAM is much larger than in previous versions and CPU excution is slow. 
+We encourage users to use GPU/MPS if available. 
+
+
+Imports complete
+Initializing Cellpose model...
+Model loaded. GPU: True
+Found 31 files to process in /ceph.groups/mshahbazi.grp/rsakata/EXP62/LIF2TIF/setB_T2
+
+[1/31] Processing: 1_1
+  > Segmenting 22 slices...
+!!! Error processing 1_1: module 'numpy' has no attribute 'inT22'
+
+[2/31] Processing: 1_2
+  > Segmenting 20 slices...
+!!! Error processing 1_2: module 'numpy' has no attribute 'inT22'
+
+[3/31] Processing: 1_3
+  > Segmenting 23 slices...
+!!! Error processing 1_3: module 'numpy' has no attribute 'inT22'
+
+[4/31] Processing: 1_4
+  > Segmenting 21 slices...
+!!! Error processing 1_4: module 'numpy' has no attribute 'inT22'
+
+[5/31] Processing: 1_5
+  > Segmenting 21 slices...
+!!! Error processing 1_5: module 'numpy' has no attribute 'inT22'
+
+[6/31] Processing: 1_6-1
+!!! Error processing 1_6-1: 'Y'
+
+[7/31] Processing: 1_6-2
+!!! Error processing 1_6-2: 'Y'
+
+[8/31] Processing: 2_1-1
+  > Segmenting 20 slices...
+!!! Error processing 2_1-1: module 'numpy' has no attribute 'inT22'
+
+[9/31] Processing: 2_2-1
+!!! Error processing 2_2-1: 'Y'
+
+[10/31] Processing: 2_2-2
+!!! Error processing 2_2-2: 'Y'
+
+[11/31] Processing: 2_2-3
+!!! Error processing 2_2-3: 'Y'
+
+[12/31] Processing: 2_3-1
+!!! Error processing 2_3-1: 'Y'
+
+[13/31] Processing: 2_3-2
+!!! Error processing 2_3-2: 'Y'
+
+[14/31] Processing: 2_4-1
+!!! Error processing 2_4-1: 'Y'
+
+[15/31] Processing: 2_4-2
+!!! Error processing 2_4-2: 'Y'
+
+[16/31] Processing: 3_1
+  > Segmenting 18 slices...
+!!! Error processing 3_1: module 'numpy' has no attribute 'inT22'
+
+[17/31] Processing: 3_2-1
+!!! Error processing 3_2-1: 'Y'
+
+[18/31] Processing: 3_2-2
+!!! Error processing 3_2-2: 'Y'
+
+[19/31] Processing: 3_2-3
+!!! Error processing 3_2-3: 'Y'
+
+[20/31] Processing: 3_4-1
+!!! Error processing 3_4-1: 'Y'
+
+[21/31] Processing: 3_4-2
+!!! Error processing 3_4-2: 'Y'
+
+[22/31] Processing: 3_5-1
+  > Segmenting 17 slices...
+!!! Error processing 3_5-1: module 'numpy' has no attribute 'inT22'
+
+[23/31] Processing: 4_1
+  > Segmenting 22 slices...
+!!! Error processing 4_1: module 'numpy' has no attribute 'inT22'
+
+[24/31] Processing: 4_2
+  > Segmenting 23 slices...
+!!! Error processing 4_2: module 'numpy' has no attribute 'inT22'
+
+[25/31] Processing: 4_3
+  > Segmenting 13 slices...
+!!! Error processing 4_3: module 'numpy' has no attribute 'inT22'
+
+[26/31] Processing: 4_4-1
+!!! Error processing 4_4-1: 'Y'
+
+[27/31] Processing: 4_4-2
+!!! Error processing 4_4-2: 'Y'
+
+[28/31] Processing: 4_5-1
+!!! Error processing 4_5-1: 'Y'
+
+[29/31] Processing: 4_5-2
+!!! Error processing 4_5-2: 'Y'
+
+[30/31] Processing: 4_5-3
+!!! Error processing 4_5-3: 'Y'
+
+[31/31] Processing: 4_6
+  > Segmenting 22 slices...
+!!! Error processing 4_6: module 'numpy' has no attribute 'inT22'
+
+All done in 60.7s

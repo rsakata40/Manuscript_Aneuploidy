@@ -1,0 +1,36 @@
+lmbwide.profile complete
+Job 6208606 on fmg05.lmb.internal
+Python 3.11.13
+/lmb/home/rsakata/anaconda3/envs/cellpose_env/bin/python
+CUDA available: True
+Torch CUDA runtime: 12.8
+Visible GPUs: 0
+Thu Jan 29 23:43:00 2026       
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 570.153.02             Driver Version: 570.153.02     CUDA Version: 12.8     |
+|-----------------------------------------+------------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+|   0  NVIDIA GeForce GTX 1080 Ti     On  |   00000000:83:00.0 Off |                  N/A |
+| 23%   26C    P8              9W /  250W |       2MiB /  11264MiB |      0%      Default |
+|                                         |                        |                  N/A |
++-----------------------------------------+------------------------+----------------------+
+                                                                                         
++-----------------------------------------------------------------------------------------+
+| Processes:                                                                              |
+|  GPU   GI   CI              PID   Type   Process name                        GPU Memory |
+|        ID   ID                                                               Usage      |
+|=========================================================================================|
+|  No running processes found                                                             |
++-----------------------------------------------------------------------------------------+
+Found 5 TIFs.
+[array] task 4: /ceph.groups/mshahbazi.grp/rsakata/HE_Nondeveloping5/LIF2TIF/Nondeveloping5_serie_5 - MS1272.tif
+
+=== Processing: Nondeveloping5_serie_5 - MS1272.tif ===
+ shape :  (104, 5, 512, 512).
+  Saved mask: /ceph.groups/mshahbazi.grp/rsakata/HE_Nondeveloping5/output/cyto_mask/Nondeveloping5_serie_5 - MS1272_mask.tif  (voxels=2077017)
+  Saved QC: /ceph.groups/mshahbazi.grp/rsakata/HE_Nondeveloping5/output/cyto_mask/Nondeveloping5_serie_5 - MS1272_qc.png
+
+Done in 68.6s

@@ -1,0 +1,9 @@
+/ceph.groups/mshahbazi.grp/rsakata/HE_Nondeveloping4/code/cellpose_boundary.py:324: UserWarning: No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+  plt.legend()
+no seeds found in get_masks_torch - no masks found.
+/ceph.groups/mshahbazi.grp/rsakata/HE_Nondeveloping4/code/cellpose_boundary.py:324: UserWarning: No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+  plt.legend()
+/ceph.groups/mshahbazi.grp/rsakata/HE_Nondeveloping4/code/cellpose_boundary.py:324: UserWarning: No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+  plt.legend()
+/ceph.groups/mshahbazi.grp/rsakata/HE_Nondeveloping4/code/cellpose_boundary.py:324: UserWarning: No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+  plt.legend()

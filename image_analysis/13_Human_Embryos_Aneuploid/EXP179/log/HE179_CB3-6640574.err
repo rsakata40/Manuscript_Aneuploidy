@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "/ceph.groups/mshahbazi.grp/rsakata/HE_EXP179/cellpose/code/cellpose_boundary_v3.py", line 1250, in main
+    process_single_file(path, sample)
+  File "/ceph.groups/mshahbazi.grp/rsakata/HE_EXP179/cellpose/code/cellpose_boundary_v3.py", line 1018, in process_single_file
+    raise ValueError(f"Channel {name!r} not in CHANNEL_ORDER={CHANNEL_ORDER}")
+ValueError: Channel 'DAPI' not in CHANNEL_ORDER=['dapi', 'ECAD', 'BF', 'NANOG', 'GATA3', 'caspase3']

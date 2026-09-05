@@ -1,0 +1,64 @@
+lmbwide.profile complete
+Job 6640783 on fmg103.lmb.internal
+Python 3.11.13
+/lmb/home/rsakata/anaconda3/envs/cellpose_env/bin/python
+CUDA available: True
+Torch CUDA runtime: 12.8
+Visible GPUs: 0
+Tue Aug 11 14:05:30 2026       
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 610.57.04              KMD Version: 610.57.04     CUDA UMD Version: 13.3     |
++-----------------------------------------+------------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+|   0  NVIDIA A100-SXM4-40GB          Off |   00000000:90:00.0 Off |                    0 |
+| N/A   29C    P0             55W /  400W |       0MiB /  40960MiB |      0%      Default |
+|                                         |                        |             Disabled |
++-----------------------------------------+------------------------+----------------------+
+
++-----------------------------------------------------------------------------------------+
+| Processes:                                                                              |
+|  GPU   GI   CI              PID   Type   Process name                        GPU Memory |
+|        ID   ID                                                               Usage      |
+|=========================================================================================|
+|  No running processes found                                                             |
++-----------------------------------------------------------------------------------------+
+
+
+Welcome to CellposeSAM, cellpose v
+cellpose version: 	4.0.6 
+platform:       	linux 
+python version: 	3.11.13 
+torch version:  	2.8.0+cu128! The neural network component of
+CPSAM is much larger than in previous versions and CPU excution is slow. 
+We encourage users to use GPU/MPS if available. 
+
+
+Initializing Cellpose model...
+Model loaded. GPU: True
+Found 12 TIFF files in /ceph.groups/mshahbazi.grp/rsakata/HE_EXP186/LIF2TIF
+[array] task 5: /ceph.groups/mshahbazi.grp/rsakata/HE_EXP186/LIF2TIF/EXP186_DAPI_ECAD_BF_NANOG_GATA3_GATA4_serie_2 - MS496.tif
+
+[1/1] Processing: MS496
+  > Voxel size 0.7583 µm/px agrees with file metadata.
+  > Axes from file axes metadata (ZCYX): (35, 6, 512, 512) -> (35, 6, 512, 512) (Z,C,Y,X)
+  > Z=35, C=6, Y=512, X=512; pixel 0.7583 um; cell-mask min_size=18 px (= 10.0 um2); DAPI-mask min_size=18 px (= 10.0 um2)
+  > Segmenting cell masks in 35 slices using ['ECAD', 'DAPI']...
+  > 429 slice-local cell masks across 23/35 slices
+  > Segmenting DAPI masks in 35 slices using ['DAPI']...
+  > 307 slice-local DAPI masks across 24/35 slices
+  > Object area um2: p5=31 median=102 p95=273 (cutoff 10.0)
+  > Mask-to-mask gap at candidate interfaces um: p10=0.00 median=0.76 p90=3.21 (MAX_PAIR_GAP_UM=1.0)
+  > Finding interfaces, assigning DAPI masks, and sampling ribbons...
+  > DAPI assignment: 272 cell masks assigned from 297 DAPI masks; 85 geometric pairs removed because one or both cells lacked a valid DAPI mask
+  [QC] 4 DAPI-mask assignments involved cells with multiple candidate nuclei; the strongest-overlap nucleus was retained
+  > 158 interfaces retained after geometry and mandatory DAPI-mask filtering (243 geometric; 357 candidates)
+  [WARNING] 56% of candidate pairs were filtered out. Check the cell masks, DAPI masks, MIN_DAPI_CELL_OVERLAP_FRACTION (0.5), MAX_PAIR_GAP_UM (1.0 um), and MIN_INTERFACE_LENGTH_UM (1.0 um).
+  [QC] ECAD peak vs geometric zero: median +0.00 µm, IQR -1.00 to +1.00 µm, n=158 (reported only, not applied)
+  > Saved pair statistics: /ceph.groups/mshahbazi.grp/rsakata/HE_EXP186/cellpose/output/cellpose_boundary/MS496/MS496_pair_stats.csv (158 pairs)
+  > Saved summary: /ceph.groups/mshahbazi.grp/rsakata/HE_EXP186/cellpose/output/cellpose_boundary/MS496/MS496_summary.csv
+  > Saved profiles: /ceph.groups/mshahbazi.grp/rsakata/HE_EXP186/cellpose/output/cellpose_boundary/MS496/MS496_profiles.csv (19440 rows)
+
+All done in 20.3 s

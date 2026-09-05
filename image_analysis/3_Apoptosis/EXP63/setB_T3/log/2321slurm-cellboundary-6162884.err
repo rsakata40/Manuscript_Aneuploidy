@@ -1,0 +1,130 @@
+Traceback (most recent call last):
+  File "/ceph.groups/mshahbazi.grp/rsakata/EXP63/code/setB_T3/cellpose_boundary.py", line 98, in main
+    process_single_file(fpath, sample)
+  File "/ceph.groups/mshahbazi.grp/rsakata/EXP63/code/setB_T3/cellpose_boundary.py", line 122, in process_single_file
+    img = reorder_tiff_to_zcxy(img)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/ceph.groups/mshahbazi.grp/rsakata/EXP63/code/setB_T3/cellpose_boundary.py", line 64, in reorder_tiff_to_zcxy
+    new_order = [dim_map['Z'], dim_map['C'], dim_map['Y'], dim_map['X']]
+                                             ~~~~~~~^^^^^
+KeyError: 'Y'
+Traceback (most recent call last):
+  File "/ceph.groups/mshahbazi.grp/rsakata/EXP63/code/setB_T3/cellpose_boundary.py", line 98, in main
+    process_single_file(fpath, sample)
+  File "/ceph.groups/mshahbazi.grp/rsakata/EXP63/code/setB_T3/cellpose_boundary.py", line 122, in process_single_file
+    img = reorder_tiff_to_zcxy(img)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/ceph.groups/mshahbazi.grp/rsakata/EXP63/code/setB_T3/cellpose_boundary.py", line 64, in reorder_tiff_to_zcxy
+    new_order = [dim_map['Z'], dim_map['C'], dim_map['Y'], dim_map['X']]
+                                             ~~~~~~~^^^^^
+KeyError: 'Y'
+Traceback (most recent call last):
+  File "/ceph.groups/mshahbazi.grp/rsakata/EXP63/code/setB_T3/cellpose_boundary.py", line 98, in main
+    process_single_file(fpath, sample)
+  File "/ceph.groups/mshahbazi.grp/rsakata/EXP63/code/setB_T3/cellpose_boundary.py", line 122, in process_single_file
+    img = reorder_tiff_to_zcxy(img)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/ceph.groups/mshahbazi.grp/rsakata/EXP63/code/setB_T3/cellpose_boundary.py", line 64, in reorder_tiff_to_zcxy
+    new_order = [dim_map['Z'], dim_map['C'], dim_map['Y'], dim_map['X']]
+                                             ~~~~~~~^^^^^
+KeyError: 'Y'
+Traceback (most recent call last):
+  File "/ceph.groups/mshahbazi.grp/rsakata/EXP63/code/setB_T3/cellpose_boundary.py", line 98, in main
+    process_single_file(fpath, sample)
+  File "/ceph.groups/mshahbazi.grp/rsakata/EXP63/code/setB_T3/cellpose_boundary.py", line 122, in process_single_file
+    img = reorder_tiff_to_zcxy(img)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/ceph.groups/mshahbazi.grp/rsakata/EXP63/code/setB_T3/cellpose_boundary.py", line 64, in reorder_tiff_to_zcxy
+    new_order = [dim_map['Z'], dim_map['C'], dim_map['Y'], dim_map['X']]
+                                             ~~~~~~~^^^^^
+KeyError: 'Y'
+Traceback (most recent call last):
+  File "/ceph.groups/mshahbazi.grp/rsakata/EXP63/code/setB_T3/cellpose_boundary.py", line 98, in main
+    process_single_file(fpath, sample)
+  File "/ceph.groups/mshahbazi.grp/rsakata/EXP63/code/setB_T3/cellpose_boundary.py", line 122, in process_single_file
+    img = reorder_tiff_to_zcxy(img)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/ceph.groups/mshahbazi.grp/rsakata/EXP63/code/setB_T3/cellpose_boundary.py", line 64, in reorder_tiff_to_zcxy
+    new_order = [dim_map['Z'], dim_map['C'], dim_map['Y'], dim_map['X']]
+                                             ~~~~~~~^^^^^
+KeyError: 'Y'
+Traceback (most recent call last):
+  File "/ceph.groups/mshahbazi.grp/rsakata/EXP63/code/setB_T3/cellpose_boundary.py", line 98, in main
+    process_single_file(fpath, sample)
+  File "/ceph.groups/mshahbazi.grp/rsakata/EXP63/code/setB_T3/cellpose_boundary.py", line 122, in process_single_file
+    img = reorder_tiff_to_zcxy(img)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/ceph.groups/mshahbazi.grp/rsakata/EXP63/code/setB_T3/cellpose_boundary.py", line 64, in reorder_tiff_to_zcxy
+    new_order = [dim_map['Z'], dim_map['C'], dim_map['Y'], dim_map['X']]
+                                             ~~~~~~~^^^^^
+KeyError: 'Y'
+Traceback (most recent call last):
+  File "/ceph.groups/mshahbazi.grp/rsakata/EXP63/code/setB_T3/cellpose_boundary.py", line 98, in main
+    process_single_file(fpath, sample)
+  File "/ceph.groups/mshahbazi.grp/rsakata/EXP63/code/setB_T3/cellpose_boundary.py", line 122, in process_single_file
+    img = reorder_tiff_to_zcxy(img)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/ceph.groups/mshahbazi.grp/rsakata/EXP63/code/setB_T3/cellpose_boundary.py", line 64, in reorder_tiff_to_zcxy
+    new_order = [dim_map['Z'], dim_map['C'], dim_map['Y'], dim_map['X']]
+                                             ~~~~~~~^^^^^
+KeyError: 'Y'
+Traceback (most recent call last):
+  File "/ceph.groups/mshahbazi.grp/rsakata/EXP63/code/setB_T3/cellpose_boundary.py", line 98, in main
+    process_single_file(fpath, sample)
+  File "/ceph.groups/mshahbazi.grp/rsakata/EXP63/code/setB_T3/cellpose_boundary.py", line 122, in process_single_file
+    img = reorder_tiff_to_zcxy(img)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/ceph.groups/mshahbazi.grp/rsakata/EXP63/code/setB_T3/cellpose_boundary.py", line 64, in reorder_tiff_to_zcxy
+    new_order = [dim_map['Z'], dim_map['C'], dim_map['Y'], dim_map['X']]
+                                                           ~~~~~~~^^^^^
+KeyError: 'X'
+Traceback (most recent call last):
+  File "/ceph.groups/mshahbazi.grp/rsakata/EXP63/code/setB_T3/cellpose_boundary.py", line 98, in main
+    process_single_file(fpath, sample)
+  File "/ceph.groups/mshahbazi.grp/rsakata/EXP63/code/setB_T3/cellpose_boundary.py", line 122, in process_single_file
+    img = reorder_tiff_to_zcxy(img)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/ceph.groups/mshahbazi.grp/rsakata/EXP63/code/setB_T3/cellpose_boundary.py", line 64, in reorder_tiff_to_zcxy
+    new_order = [dim_map['Z'], dim_map['C'], dim_map['Y'], dim_map['X']]
+                                             ~~~~~~~^^^^^
+KeyError: 'Y'
+Traceback (most recent call last):
+  File "/ceph.groups/mshahbazi.grp/rsakata/EXP63/code/setB_T3/cellpose_boundary.py", line 98, in main
+    process_single_file(fpath, sample)
+  File "/ceph.groups/mshahbazi.grp/rsakata/EXP63/code/setB_T3/cellpose_boundary.py", line 122, in process_single_file
+    img = reorder_tiff_to_zcxy(img)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/ceph.groups/mshahbazi.grp/rsakata/EXP63/code/setB_T3/cellpose_boundary.py", line 64, in reorder_tiff_to_zcxy
+    new_order = [dim_map['Z'], dim_map['C'], dim_map['Y'], dim_map['X']]
+                                             ~~~~~~~^^^^^
+KeyError: 'Y'
+Traceback (most recent call last):
+  File "/ceph.groups/mshahbazi.grp/rsakata/EXP63/code/setB_T3/cellpose_boundary.py", line 98, in main
+    process_single_file(fpath, sample)
+  File "/ceph.groups/mshahbazi.grp/rsakata/EXP63/code/setB_T3/cellpose_boundary.py", line 122, in process_single_file
+    img = reorder_tiff_to_zcxy(img)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/ceph.groups/mshahbazi.grp/rsakata/EXP63/code/setB_T3/cellpose_boundary.py", line 64, in reorder_tiff_to_zcxy
+    new_order = [dim_map['Z'], dim_map['C'], dim_map['Y'], dim_map['X']]
+                                             ~~~~~~~^^^^^
+KeyError: 'Y'
+Traceback (most recent call last):
+  File "/ceph.groups/mshahbazi.grp/rsakata/EXP63/code/setB_T3/cellpose_boundary.py", line 98, in main
+    process_single_file(fpath, sample)
+  File "/ceph.groups/mshahbazi.grp/rsakata/EXP63/code/setB_T3/cellpose_boundary.py", line 122, in process_single_file
+    img = reorder_tiff_to_zcxy(img)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/ceph.groups/mshahbazi.grp/rsakata/EXP63/code/setB_T3/cellpose_boundary.py", line 64, in reorder_tiff_to_zcxy
+    new_order = [dim_map['Z'], dim_map['C'], dim_map['Y'], dim_map['X']]
+                                             ~~~~~~~^^^^^
+KeyError: 'Y'
+Traceback (most recent call last):
+  File "/ceph.groups/mshahbazi.grp/rsakata/EXP63/code/setB_T3/cellpose_boundary.py", line 98, in main
+    process_single_file(fpath, sample)
+  File "/ceph.groups/mshahbazi.grp/rsakata/EXP63/code/setB_T3/cellpose_boundary.py", line 122, in process_single_file
+    img = reorder_tiff_to_zcxy(img)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/ceph.groups/mshahbazi.grp/rsakata/EXP63/code/setB_T3/cellpose_boundary.py", line 64, in reorder_tiff_to_zcxy
+    new_order = [dim_map['Z'], dim_map['C'], dim_map['Y'], dim_map['X']]
+                                             ~~~~~~~^^^^^
+KeyError: 'Y'

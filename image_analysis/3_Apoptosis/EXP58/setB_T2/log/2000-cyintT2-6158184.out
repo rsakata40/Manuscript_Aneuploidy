@@ -1,0 +1,74 @@
+lmbwide.profile complete
+Job 6158184 on fmg101.lmb.internal
+Wed Jan  7 20:07:57 GMT 2026
+Python 3.11.13
+/lmb/home/rsakata/anaconda3/envs/cellpose_env/bin/python
+CUDA available: True
+Torch CUDA runtime: 12.8
+Visible GPUs: 0
+Wed Jan  7 20:08:01 2026       
++---------------------------------------------------------------------------------------+
+| NVIDIA-SMI 535.86.10              Driver Version: 535.86.10    CUDA Version: 12.2     |
+|-----------------------------------------+----------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |         Memory-Usage | GPU-Util  Compute M. |
+|                                         |                      |               MIG M. |
+|=========================================+======================+======================|
+|   0  NVIDIA A100-SXM4-40GB          On  | 00000000:87:00.0 Off |                    0 |
+| N/A   30C    P0              54W / 400W |      4MiB / 40960MiB |      0%      Default |
+|                                         |                      |             Disabled |
++-----------------------------------------+----------------------+----------------------+
+                                                                                         
++---------------------------------------------------------------------------------------+
+| Processes:                                                                            |
+|  GPU   GI   CI        PID   Type   Process name                            GPU Memory |
+|        ID   ID                                                             Usage      |
+|=======================================================================================|
+|  No running processes found                                                           |
++---------------------------------------------------------------------------------------+
+Processing EXP58_setB_T2_DAPI_phalloidin_GFP_ECAD_caspase3_serie_10 - 3_5
+Processing EXP58_setB_T2_DAPI_phalloidin_GFP_ECAD_caspase3_serie_11 - 3_6
+Processing EXP58_setB_T2_DAPI_phalloidin_GFP_ECAD_caspase3_serie_12 - 3_7-1
+Processing EXP58_setB_T2_DAPI_phalloidin_GFP_ECAD_caspase3_serie_12 - 3_7-2
+Processing EXP58_setB_T2_DAPI_phalloidin_GFP_ECAD_caspase3_serie_13 - 3_8-1
+Processing EXP58_setB_T2_DAPI_phalloidin_GFP_ECAD_caspase3_serie_13 - 3_8-2
+Processing EXP58_setB_T2_DAPI_phalloidin_GFP_ECAD_caspase3_serie_13 - 3_8-3
+Processing EXP58_setB_T2_DAPI_phalloidin_GFP_ECAD_caspase3_serie_13 - 3_8-4
+Processing EXP58_setB_T2_DAPI_phalloidin_GFP_ECAD_caspase3_serie_14 - 2_1
+Processing EXP58_setB_T2_DAPI_phalloidin_GFP_ECAD_caspase3_serie_15 - 2_2
+Processing EXP58_setB_T2_DAPI_phalloidin_GFP_ECAD_caspase3_serie_16 - 2_3-1
+Processing EXP58_setB_T2_DAPI_phalloidin_GFP_ECAD_caspase3_serie_16 - 2_3-2
+Processing EXP58_setB_T2_DAPI_phalloidin_GFP_ECAD_caspase3_serie_17 - 2_4
+Processing EXP58_setB_T2_DAPI_phalloidin_GFP_ECAD_caspase3_serie_18 - 2_5-1
+Processing EXP58_setB_T2_DAPI_phalloidin_GFP_ECAD_caspase3_serie_18 - 2_5-2
+Processing EXP58_setB_T2_DAPI_phalloidin_GFP_ECAD_caspase3_serie_19 - 2_6-1
+Processing EXP58_setB_T2_DAPI_phalloidin_GFP_ECAD_caspase3_serie_19 - 2_6-2
+Processing EXP58_setB_T2_DAPI_phalloidin_GFP_ECAD_caspase3_serie_2 - 4_2
+Processing EXP58_setB_T2_DAPI_phalloidin_GFP_ECAD_caspase3_serie_20 - 1_1
+Processing EXP58_setB_T2_DAPI_phalloidin_GFP_ECAD_caspase3_serie_21 - 1_2-1
+Processing EXP58_setB_T2_DAPI_phalloidin_GFP_ECAD_caspase3_serie_21 - 1_2-2
+Processing EXP58_setB_T2_DAPI_phalloidin_GFP_ECAD_caspase3_serie_22 - 1_3
+Processing EXP58_setB_T2_DAPI_phalloidin_GFP_ECAD_caspase3_serie_23 - 1_4
+Processing EXP58_setB_T2_DAPI_phalloidin_GFP_ECAD_caspase3_serie_24 - 1_5-1
+Processing EXP58_setB_T2_DAPI_phalloidin_GFP_ECAD_caspase3_serie_24 - 1_5-2
+Processing EXP58_setB_T2_DAPI_phalloidin_GFP_ECAD_caspase3_serie_24 - 1_5-3
+Processing EXP58_setB_T2_DAPI_phalloidin_GFP_ECAD_caspase3_serie_3 - 4_3-1
+Processing EXP58_setB_T2_DAPI_phalloidin_GFP_ECAD_caspase3_serie_3 - 4_3-2
+Processing EXP58_setB_T2_DAPI_phalloidin_GFP_ECAD_caspase3_serie_4 - 4_4-1
+Processing EXP58_setB_T2_DAPI_phalloidin_GFP_ECAD_caspase3_serie_4 - 4_4-2
+Processing EXP58_setB_T2_DAPI_phalloidin_GFP_ECAD_caspase3_serie_4 - 4_4-3
+Processing EXP58_setB_T2_DAPI_phalloidin_GFP_ECAD_caspase3_serie_4 - 4_4-4
+Processing EXP58_setB_T2_DAPI_phalloidin_GFP_ECAD_caspase3_serie_5 - 4_5-1
+Processing EXP58_setB_T2_DAPI_phalloidin_GFP_ECAD_caspase3_serie_6 - 3_1-1
+Processing EXP58_setB_T2_DAPI_phalloidin_GFP_ECAD_caspase3_serie_7 - 3_2
+Processing EXP58_setB_T2_DAPI_phalloidin_GFP_ECAD_caspase3_serie_8 - 3_3
+Processing EXP58_setB_T2_DAPI_phalloidin_GFP_ECAD_caspase3_serie_9 - 3_4
+Wrote /ceph.groups/mshahbazi.grp/rsakata/EXP58/output/setB_T2/3_cytomask_intensities
+                                                file  ...  caspase3_mean
+0  EXP58_setB_T2_DAPI_phalloidin_GFP_ECAD_caspase...  ...       6.039629
+1  EXP58_setB_T2_DAPI_phalloidin_GFP_ECAD_caspase...  ...       5.151223
+2  EXP58_setB_T2_DAPI_phalloidin_GFP_ECAD_caspase...  ...       4.511196
+3  EXP58_setB_T2_DAPI_phalloidin_GFP_ECAD_caspase...  ...       5.028013
+4  EXP58_setB_T2_DAPI_phalloidin_GFP_ECAD_caspase...  ...      11.852328
+
+[5 rows x 10 columns]

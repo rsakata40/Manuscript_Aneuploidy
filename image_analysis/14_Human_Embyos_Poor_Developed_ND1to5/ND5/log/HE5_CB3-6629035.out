@@ -1,0 +1,63 @@
+lmbwide.profile complete
+Job 6629035 on fmg25.lmb.internal
+Python 3.11.13
+/lmb/home/rsakata/anaconda3/envs/cellpose_env/bin/python
+CUDA available: True
+Torch CUDA runtime: 12.8
+Visible GPUs: 0
+Thu Aug  6 12:42:47 2026       
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 595.80                 Driver Version: 595.80         CUDA Version: 13.2     |
++-----------------------------------------+------------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+|   0  NVIDIA GeForce RTX 2080 Ti     On  |   00000000:24:00.0 Off |                  N/A |
+| 27%   32C    P8             23W /  250W |       1MiB /  11264MiB |      0%      Default |
+|                                         |                        |                  N/A |
++-----------------------------------------+------------------------+----------------------+
+
++-----------------------------------------------------------------------------------------+
+| Processes:                                                                              |
+|  GPU   GI   CI              PID   Type   Process name                        GPU Memory |
+|        ID   ID                                                               Usage      |
+|=========================================================================================|
+|  No running processes found                                                             |
++-----------------------------------------------------------------------------------------+
+
+
+Welcome to CellposeSAM, cellpose v
+cellpose version: 	4.0.6 
+platform:       	linux 
+python version: 	3.11.13 
+torch version:  	2.8.0+cu128! The neural network component of
+CPSAM is much larger than in previous versions and CPU excution is slow. 
+We encourage users to use GPU/MPS if available. 
+
+
+Initializing Cellpose model...
+Model loaded. GPU: True
+Found 5 TIFF files in /ceph.groups/mshahbazi.grp/rsakata/HE_Nondeveloping5/LIF2TIF
+[array] task 0: /ceph.groups/mshahbazi.grp/rsakata/HE_Nondeveloping5/LIF2TIF/Nondeveloping5_serie_1 - MS1167.tif
+
+[1/1] Processing: MS1167
+  > Voxel size 0.5687 µm/px agrees with file metadata.
+  > Axes from file axes metadata (ZCYX): (108, 5, 512, 512) -> (108, 5, 512, 512) (Z,C,Y,X)
+  > Z=108, C=5, Y=512, X=512; pixel 0.5687 um; cell-mask min_size=31 px (= 10.0 um2); DAPI-mask min_size=31 px (= 10.0 um2)
+  > Segmenting cell masks in 108 slices using ['ECAD', 'DAPI']...
+  > 2260 slice-local cell masks across 91/108 slices
+  > Segmenting DAPI masks in 108 slices using ['DAPI']...
+  > 1346 slice-local DAPI masks across 90/108 slices
+  > Object area um2: p5=23 median=83 p95=216 (cutoff 10.0)
+  > Finding interfaces, assigning DAPI masks, and sampling ribbons...
+  > DAPI assignment: 1222 cell masks assigned from 1332 DAPI masks; 1035 geometric pairs removed because one or both cells lacked a valid DAPI mask
+  [QC] 22 DAPI-mask assignments involved cells with multiple candidate nuclei; the strongest-overlap nucleus was retained
+  > 924 interfaces retained after geometry and mandatory DAPI-mask filtering (1959 geometric; 2683 candidates)
+  [WARNING] 66% of candidate pairs were filtered out. Check the cell masks, DAPI masks, MIN_DAPI_CELL_OVERLAP_FRACTION (0.5), MAX_PAIR_GAP_UM (1.0 um), and MIN_INTERFACE_LENGTH_UM (1.0 um).
+  [QC] ECAD peak vs geometric zero: median +0.00 µm, IQR -1.50 to +1.00 µm, n=924 (reported only, not applied)
+  > Saved pair statistics: /ceph.groups/mshahbazi.grp/rsakata/HE_Nondeveloping5/output/cellpose_boundary3/MS1167/MS1167_pair_stats.csv (924 pairs)
+  > Saved summary: /ceph.groups/mshahbazi.grp/rsakata/HE_Nondeveloping5/output/cellpose_boundary3/MS1167/MS1167_summary.csv
+  > Saved profiles: /ceph.groups/mshahbazi.grp/rsakata/HE_Nondeveloping5/output/cellpose_boundary3/MS1167/MS1167_profiles.csv (95270 rows)
+
+All done in 257.8 s

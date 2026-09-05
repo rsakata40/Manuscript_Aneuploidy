@@ -1,0 +1,111 @@
+lmbwide.profile complete
+Job 6157262 on fmg101.lmb.internal
+Wed Jan  7 14:07:27 GMT 2026
+Python 3.11.13
+/lmb/home/rsakata/anaconda3/envs/cellpose_env/bin/python
+CUDA available: True
+Torch CUDA runtime: 12.8
+Visible GPUs: 0,1,2,3,4,5,6,7
+Wed Jan  7 14:07:32 2026       
++---------------------------------------------------------------------------------------+
+| NVIDIA-SMI 535.86.10              Driver Version: 535.86.10    CUDA Version: 12.2     |
+|-----------------------------------------+----------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |         Memory-Usage | GPU-Util  Compute M. |
+|                                         |                      |               MIG M. |
+|=========================================+======================+======================|
+|   0  NVIDIA A100-SXM4-40GB          On  | 00000000:07:00.0 Off |                    0 |
+| N/A   27C    P0              54W / 400W |      4MiB / 40960MiB |      0%      Default |
+|                                         |                      |             Disabled |
++-----------------------------------------+----------------------+----------------------+
+|   1  NVIDIA A100-SXM4-40GB          On  | 00000000:0A:00.0 Off |                    0 |
+| N/A   25C    P0              52W / 400W |      4MiB / 40960MiB |      0%      Default |
+|                                         |                      |             Disabled |
++-----------------------------------------+----------------------+----------------------+
+|   2  NVIDIA A100-SXM4-40GB          On  | 00000000:47:00.0 Off |                    0 |
+| N/A   26C    P0              54W / 400W |      4MiB / 40960MiB |      0%      Default |
+|                                         |                      |             Disabled |
++-----------------------------------------+----------------------+----------------------+
+|   3  NVIDIA A100-SXM4-40GB          On  | 00000000:4D:00.0 Off |                    0 |
+| N/A   28C    P0              52W / 400W |      4MiB / 40960MiB |      0%      Default |
+|                                         |                      |             Disabled |
++-----------------------------------------+----------------------+----------------------+
+|   4  NVIDIA A100-SXM4-40GB          On  | 00000000:87:00.0 Off |                    0 |
+| N/A   28C    P0              53W / 400W |      4MiB / 40960MiB |      0%      Default |
+|                                         |                      |             Disabled |
++-----------------------------------------+----------------------+----------------------+
+|   5  NVIDIA A100-SXM4-40GB          On  | 00000000:8D:00.0 Off |                    0 |
+| N/A   27C    P0              54W / 400W |      4MiB / 40960MiB |      0%      Default |
+|                                         |                      |             Disabled |
++-----------------------------------------+----------------------+----------------------+
+|   6  NVIDIA A100-SXM4-40GB          On  | 00000000:C7:00.0 Off |                    0 |
+| N/A   27C    P0              56W / 400W |      4MiB / 40960MiB |      0%      Default |
+|                                         |                      |             Disabled |
++-----------------------------------------+----------------------+----------------------+
+|   7  NVIDIA A100-SXM4-40GB          On  | 00000000:CA:00.0 Off |                    0 |
+| N/A   29C    P0              56W / 400W |      4MiB / 40960MiB |      0%      Default |
+|                                         |                      |             Disabled |
++-----------------------------------------+----------------------+----------------------+
+                                                                                         
++---------------------------------------------------------------------------------------+
+| Processes:                                                                            |
+|  GPU   GI   CI        PID   Type   Process name                            GPU Memory |
+|        ID   ID                                                             Usage      |
+|=======================================================================================|
+|  No running processes found                                                           |
++---------------------------------------------------------------------------------------+
+Processing EXP58_setA_T3_DAPI_GATA3_GFP_ZO1_NANOG_serie_1 - 5_1
+Processing EXP58_setA_T3_DAPI_GATA3_GFP_ZO1_NANOG_serie_10 - 7_1
+Processing EXP58_setA_T3_DAPI_GATA3_GFP_ZO1_NANOG_serie_11 - 7_2
+Processing EXP58_setA_T3_DAPI_GATA3_GFP_ZO1_NANOG_serie_12 - 7_3-1
+Processing EXP58_setA_T3_DAPI_GATA3_GFP_ZO1_NANOG_serie_13 - 7_4
+Processing EXP58_setA_T3_DAPI_GATA3_GFP_ZO1_NANOG_serie_14 - 8_1
+Processing EXP58_setA_T3_DAPI_GATA3_GFP_ZO1_NANOG_serie_15 - 8_2-1
+Processing EXP58_setA_T3_DAPI_GATA3_GFP_ZO1_NANOG_serie_15 - 8_2-2
+Processing EXP58_setA_T3_DAPI_GATA3_GFP_ZO1_NANOG_serie_16 - 8_3-1
+Processing EXP58_setA_T3_DAPI_GATA3_GFP_ZO1_NANOG_serie_16 - 8_3-2
+Processing EXP58_setA_T3_DAPI_GATA3_GFP_ZO1_NANOG_serie_17 - 8_4-1
+Processing EXP58_setA_T3_DAPI_GATA3_GFP_ZO1_NANOG_serie_17 - 8_4-2
+Processing EXP58_setA_T3_DAPI_GATA3_GFP_ZO1_NANOG_serie_18 - 8_5
+Processing EXP58_setA_T3_DAPI_GATA3_GFP_ZO1_NANOG_serie_19 - 12_1
+Processing EXP58_setA_T3_DAPI_GATA3_GFP_ZO1_NANOG_serie_2 - 5_2
+Processing EXP58_setA_T3_DAPI_GATA3_GFP_ZO1_NANOG_serie_20 - 12_2
+Processing EXP58_setA_T3_DAPI_GATA3_GFP_ZO1_NANOG_serie_21 - 12_3-1
+Processing EXP58_setA_T3_DAPI_GATA3_GFP_ZO1_NANOG_serie_22 - 12_4
+Processing EXP58_setA_T3_DAPI_GATA3_GFP_ZO1_NANOG_serie_23 - 12_5
+Processing EXP58_setA_T3_DAPI_GATA3_GFP_ZO1_NANOG_serie_24 - 12_6-1
+Processing EXP58_setA_T3_DAPI_GATA3_GFP_ZO1_NANOG_serie_24 - 12_6-2
+Processing EXP58_setA_T3_DAPI_GATA3_GFP_ZO1_NANOG_serie_25 - 12_7
+Processing EXP58_setA_T3_DAPI_GATA3_GFP_ZO1_NANOG_serie_26 - 11_1
+Processing EXP58_setA_T3_DAPI_GATA3_GFP_ZO1_NANOG_serie_27 - 11_2
+Processing EXP58_setA_T3_DAPI_GATA3_GFP_ZO1_NANOG_serie_28 - 10_1
+Processing EXP58_setA_T3_DAPI_GATA3_GFP_ZO1_NANOG_serie_29 - 10_2
+Processing EXP58_setA_T3_DAPI_GATA3_GFP_ZO1_NANOG_serie_3 - 5_3
+Processing EXP58_setA_T3_DAPI_GATA3_GFP_ZO1_NANOG_serie_30 - 10_3
+Processing EXP58_setA_T3_DAPI_GATA3_GFP_ZO1_NANOG_serie_31 - 10_4
+Processing EXP58_setA_T3_DAPI_GATA3_GFP_ZO1_NANOG_serie_32 - 10_5-1
+Processing EXP58_setA_T3_DAPI_GATA3_GFP_ZO1_NANOG_serie_32 - 10_5-2
+Processing EXP58_setA_T3_DAPI_GATA3_GFP_ZO1_NANOG_serie_34 - 10_7-1
+Processing EXP58_setA_T3_DAPI_GATA3_GFP_ZO1_NANOG_serie_34 - 10_7-2
+Processing EXP58_setA_T3_DAPI_GATA3_GFP_ZO1_NANOG_serie_35 - 9_1
+Processing EXP58_setA_T3_DAPI_GATA3_GFP_ZO1_NANOG_serie_36 - 9_2
+Processing EXP58_setA_T3_DAPI_GATA3_GFP_ZO1_NANOG_serie_37 - 9_3
+Processing EXP58_setA_T3_DAPI_GATA3_GFP_ZO1_NANOG_serie_38 - 9_4
+Processing EXP58_setA_T3_DAPI_GATA3_GFP_ZO1_NANOG_serie_39 - 9_5
+Processing EXP58_setA_T3_DAPI_GATA3_GFP_ZO1_NANOG_serie_4 - 5_4
+Processing EXP58_setA_T3_DAPI_GATA3_GFP_ZO1_NANOG_serie_5 - 6_1
+Processing EXP58_setA_T3_DAPI_GATA3_GFP_ZO1_NANOG_serie_6 - 6_2
+Processing EXP58_setA_T3_DAPI_GATA3_GFP_ZO1_NANOG_serie_7 - 6_3-1
+Processing EXP58_setA_T3_DAPI_GATA3_GFP_ZO1_NANOG_serie_7 - 6_3-2
+Processing EXP58_setA_T3_DAPI_GATA3_GFP_ZO1_NANOG_serie_8 - 6_4-1
+Processing EXP58_setA_T3_DAPI_GATA3_GFP_ZO1_NANOG_serie_9 - 6_5-1
+Processing EXP58_setA_T3_DAPI_GATA3_GFP_ZO1_NANOG_serie_9 - 6_5-2
+Wrote /ceph.groups/mshahbazi.grp/rsakata/EXP58/output/setA_T3/3_cytomask_intensities
+                                                file  ...  NANOG_mean
+0  EXP58_setA_T3_DAPI_GATA3_GFP_ZO1_NANOG_serie_1...  ...    1.857540
+1  EXP58_setA_T3_DAPI_GATA3_GFP_ZO1_NANOG_serie_1...  ...    2.259113
+2  EXP58_setA_T3_DAPI_GATA3_GFP_ZO1_NANOG_serie_1...  ...    1.036047
+3  EXP58_setA_T3_DAPI_GATA3_GFP_ZO1_NANOG_serie_1...  ...    2.384875
+4  EXP58_setA_T3_DAPI_GATA3_GFP_ZO1_NANOG_serie_1...  ...    2.882003
+
+[5 rows x 10 columns]

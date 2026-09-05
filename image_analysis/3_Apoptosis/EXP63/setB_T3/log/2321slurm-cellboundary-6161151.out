@@ -1,0 +1,283 @@
+lmbwide.profile complete
+Job 6161151 on fmg104
+Python 3.11.13
+/lmb/home/rsakata/anaconda3/envs/cellpose_env/bin/python
+CUDA available: True
+Torch CUDA runtime: 12.8
+Visible GPUs: 0
+Fri Jan  9 16:27:29 2026       
++---------------------------------------------------------------------------------------+
+| NVIDIA-SMI 535.86.10              Driver Version: 535.86.10    CUDA Version: 12.2     |
+|-----------------------------------------+----------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |         Memory-Usage | GPU-Util  Compute M. |
+|                                         |                      |               MIG M. |
+|=========================================+======================+======================|
+|   0  NVIDIA A100-SXM4-80GB          Off | 00000000:07:00.0 Off |                    0 |
+| N/A   27C    P0              62W / 400W |      4MiB / 81920MiB |      0%      Default |
+|                                         |                      |             Disabled |
++-----------------------------------------+----------------------+----------------------+
+                                                                                         
++---------------------------------------------------------------------------------------+
+| Processes:                                                                            |
+|  GPU   GI   CI        PID   Type   Process name                            GPU Memory |
+|        ID   ID                                                             Usage      |
+|=======================================================================================|
+|  No running processes found                                                           |
++---------------------------------------------------------------------------------------+
+
+
+Welcome to CellposeSAM, cellpose v
+cellpose version: 	4.0.6 
+platform:       	linux 
+python version: 	3.11.13 
+torch version:  	2.8.0+cu128! The neural network component of
+CPSAM is much larger than in previous versions and CPU excution is slow. 
+We encourage users to use GPU/MPS if available. 
+
+
+Imports complete
+Initializing Cellpose model...
+Model loaded. GPU: True
+Found 53 files to process in /ceph.groups/mshahbazi.grp/rsakata/EXP62/LIF2TIF/setB_T3
+
+[1/53] Processing: 5_1
+  [Skip] Output exists in: /ceph.groups/mshahbazi.grp/rsakata/EXP63/output/setB_T3/5_1
+
+[2/53] Processing: 5_2
+  [Skip] Output exists in: /ceph.groups/mshahbazi.grp/rsakata/EXP63/output/setB_T3/5_2
+
+[3/53] Processing: 5_3
+  [Skip] Output exists in: /ceph.groups/mshahbazi.grp/rsakata/EXP63/output/setB_T3/5_3
+
+[4/53] Processing: 5_4
+  [Skip] Output exists in: /ceph.groups/mshahbazi.grp/rsakata/EXP63/output/setB_T3/5_4
+
+[5/53] Processing: 6_1
+  [Skip] Output exists in: /ceph.groups/mshahbazi.grp/rsakata/EXP63/output/setB_T3/6_1
+
+[6/53] Processing: 6_2-1
+!!! Error processing 6_2-1: 'Y'
+
+[7/53] Processing: 6_2-2
+!!! Error processing 6_2-2: 'Y'
+
+[8/53] Processing: 6_3
+  > Segmenting 28 slices...
+  > Detected 78 objects.
+  > Finding neighbors...
+  > Extracting profiles...
+  > Generating summary plots...
+
+[9/53] Processing: 6_4-1
+!!! Error processing 6_4-1: 'Y'
+
+[10/53] Processing: 6_4-2
+!!! Error processing 6_4-2: 'Y'
+
+[11/53] Processing: 6_5-1
+!!! Error processing 6_5-1: 'Y'
+
+[12/53] Processing: 6_6
+  > Segmenting 20 slices...
+  > Detected 69 objects.
+  > Finding neighbors...
+  > Extracting profiles...
+  > Generating summary plots...
+
+[13/53] Processing: 7_1
+  > Segmenting 107 slices...
+  > Detected 84 objects.
+  > Finding neighbors...
+  > Extracting profiles...
+  > Generating summary plots...
+
+[14/53] Processing: 7_2-1
+!!! Error processing 7_2-1: 'X'
+
+[15/53] Processing: 7_3
+  > Segmenting 65 slices...
+  > Detected 54 objects.
+  > Finding neighbors...
+  > Extracting profiles...
+  > Generating summary plots...
+
+[16/53] Processing: 7_4
+  > Segmenting 91 slices...
+  > Detected 70 objects.
+  > Finding neighbors...
+  > Extracting profiles...
+  > Generating summary plots...
+
+[17/53] Processing: 7_5
+  > Segmenting 78 slices...
+  > Detected 97 objects.
+  > Finding neighbors...
+  > Extracting profiles...
+  > Generating summary plots...
+
+[18/53] Processing: 8_1-1
+!!! Error processing 8_1-1: 'Y'
+
+[19/53] Processing: 8_1-2
+!!! Error processing 8_1-2: 'Y'
+
+[20/53] Processing: 8_1-3
+!!! Error processing 8_1-3: 'Y'
+
+[21/53] Processing: 8_2-1
+!!! Error processing 8_2-1: 'Y'
+
+[22/53] Processing: 8_2-2
+!!! Error processing 8_2-2: 'Y'
+
+[23/53] Processing: 8_3-1
+!!! Error processing 8_3-1: 'Y'
+
+[24/53] Processing: 8_3-2
+!!! Error processing 8_3-2: 'Y'
+
+[25/53] Processing: 8_4-1
+!!! Error processing 8_4-1: 'Y'
+
+[26/53] Processing: 8_4-2
+!!! Error processing 8_4-2: 'Y'
+
+[27/53] Processing: 8_4-3
+!!! Error processing 8_4-3: 'Y'
+
+[28/53] Processing: 8_5-1
+!!! Error processing 8_5-1: 'Y'
+
+[29/53] Processing: 8_5-2
+!!! Error processing 8_5-2: 'Y'
+
+[30/53] Processing: 8_6-1
+!!! Error processing 8_6-1: 'Y'
+
+[31/53] Processing: 8_6-2
+!!! Error processing 8_6-2: 'Y'
+
+[32/53] Processing: 12_1-1
+!!! Error processing 12_1-1: 'Y'
+
+[33/53] Processing: 12_1-2
+!!! Error processing 12_1-2: 'Y'
+
+[34/53] Processing: 12_2-2
+!!! Error processing 12_2-2: 'Y'
+
+[35/53] Processing: 12_3-1
+!!! Error processing 12_3-1: 'Y'
+
+[36/53] Processing: 12_3-2
+!!! Error processing 12_3-2: 'Y'
+
+[37/53] Processing: 12_4
+  > Segmenting 31 slices...
+  > Detected 94 objects.
+  > Finding neighbors...
+  > Extracting profiles...
+  > Generating summary plots...
+
+[38/53] Processing: 12_5
+  > Segmenting 30 slices...
+  > Detected 61 objects.
+  > Finding neighbors...
+  > Extracting profiles...
+  > Generating summary plots...
+
+[39/53] Processing: 12_6
+  > Segmenting 36 slices...
+  > Detected 75 objects.
+  > Finding neighbors...
+  > Extracting profiles...
+  > Generating summary plots...
+
+[40/53] Processing: 10_1
+  > Segmenting 32 slices...
+  > Detected 92 objects.
+  > Finding neighbors...
+  > Extracting profiles...
+  > Generating summary plots...
+
+[41/53] Processing: 10_2
+  > Segmenting 43 slices...
+  > Detected 101 objects.
+  > Finding neighbors...
+  > Extracting profiles...
+  > Generating summary plots...
+
+[42/53] Processing: 10_3
+  > Segmenting 30 slices...
+  > Detected 82 objects.
+  > Finding neighbors...
+  > Extracting profiles...
+  > Generating summary plots...
+
+[43/53] Processing: 10_4-1
+!!! Error processing 10_4-1: 'Y'
+
+[44/53] Processing: 10_4-2
+!!! Error processing 10_4-2: 'Y'
+
+[45/53] Processing: 10_5
+  > Segmenting 30 slices...
+  > Detected 112 objects.
+  > Finding neighbors...
+  > Extracting profiles...
+  > Generating summary plots...
+
+[46/53] Processing: 10_6
+  > Segmenting 32 slices...
+  > Detected 74 objects.
+  > Finding neighbors...
+  > Extracting profiles...
+  > Generating summary plots...
+
+[47/53] Processing: 10_7
+  > Segmenting 41 slices...
+  > Detected 111 objects.
+  > Finding neighbors...
+  > Extracting profiles...
+  > Generating summary plots...
+
+[48/53] Processing: 9_1
+  > Segmenting 86 slices...
+  > Detected 43 objects.
+  > Finding neighbors...
+  > Extracting profiles...
+  > Generating summary plots...
+
+[49/53] Processing: 9_2
+  > Segmenting 87 slices...
+  > Detected 25 objects.
+  > Finding neighbors...
+  > Extracting profiles...
+  > Generating summary plots...
+
+[50/53] Processing: 9_3
+  > Segmenting 94 slices...
+  > Detected 60 objects.
+  > Finding neighbors...
+  > Extracting profiles...
+  > Generating summary plots...
+
+[51/53] Processing: 9_4
+  > Segmenting 85 slices...
+  > Detected 52 objects.
+  > Finding neighbors...
+  > Extracting profiles...
+  > Generating summary plots...
+
+[52/53] Processing: 9_5
+  > Segmenting 95 slices...
+  > Detected 30 objects.
+  > Finding neighbors...
+  > Extracting profiles...
+  > Generating summary plots...
+
+[53/53] Processing: 9_6
+!!! Error processing 9_6: 'Y'
+
+All done in 708.1s

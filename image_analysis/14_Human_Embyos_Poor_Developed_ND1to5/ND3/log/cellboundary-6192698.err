@@ -1,0 +1,8 @@
+slurmstepd: error: couldn't chdir to `/tmp/rsakata/infercnv': No such file or directory: going to /tmp instead
+slurmstepd: error: couldn't chdir to `/tmp/rsakata/infercnv': No such file or directory: going to /tmp instead
+/ceph.groups/mshahbazi.grp/rsakata/HE_Nondeveloping3/code/cellpose_boundary.py:333: FutureWarning: DataFrameGroupBy.apply operated on the grouping columns. This behavior is deprecated, and in a future version of pandas the grouping columns will be excluded from the operation. Either pass `include_groups=False` to exclude the groupings or explicitly select the grouping columns after groupby to silence this warning.
+  pair_stats = gfp_df.groupby(["z", "label_i", "label_j"]).apply(calc_before_after).reset_index()
+/ceph.groups/mshahbazi.grp/rsakata/HE_Nondeveloping3/code/cellpose_boundary.py:333: FutureWarning: DataFrameGroupBy.apply operated on the grouping columns. This behavior is deprecated, and in a future version of pandas the grouping columns will be excluded from the operation. Either pass `include_groups=False` to exclude the groupings or explicitly select the grouping columns after groupby to silence this warning.
+  pair_stats = gfp_df.groupby(["z", "label_i", "label_j"]).apply(calc_before_after).reset_index()
+/ceph.groups/mshahbazi.grp/rsakata/HE_Nondeveloping3/code/cellpose_boundary.py:333: FutureWarning: DataFrameGroupBy.apply operated on the grouping columns. This behavior is deprecated, and in a future version of pandas the grouping columns will be excluded from the operation. Either pass `include_groups=False` to exclude the groupings or explicitly select the grouping columns after groupby to silence this warning.
+  pair_stats = gfp_df.groupby(["z", "label_i", "label_j"]).apply(calc_before_after).reset_index()

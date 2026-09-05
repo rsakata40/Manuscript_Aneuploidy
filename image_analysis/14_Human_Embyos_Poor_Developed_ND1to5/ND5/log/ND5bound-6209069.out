@@ -1,0 +1,41 @@
+lmbwide.profile complete
+Job 6209069 on fmg22.lmb.internal
+Python 3.11.13
+/lmb/home/rsakata/anaconda3/envs/cellpose_env/bin/python
+CUDA available: False
+Torch CUDA runtime: 12.8
+Visible GPUs: 0
+No devices were found
+nvidia-smi not available
+
+
+Welcome to CellposeSAM, cellpose v
+cellpose version: 	4.0.6 
+platform:       	linux 
+python version: 	3.11.13 
+torch version:  	2.8.0+cu128! The neural network component of
+CPSAM is much larger than in previous versions and CPU excution is slow. 
+We encourage users to use GPU/MPS if available. 
+
+
+Imports complete
+Initializing Cellpose model...
+Model loaded. GPU: False
+Found 5 files to process in /ceph.groups/mshahbazi.grp/rsakata/HE_Nondeveloping5/LIF2TIF
+
+[1/5] Processing: MS1167
+  [Skip] Output exists in: /ceph.groups/mshahbazi.grp/rsakata/HE_Nondeveloping5/output/cellpose_boundary/MS1167
+
+[2/5] Processing: MS1168
+  [Skip] Output exists in: /ceph.groups/mshahbazi.grp/rsakata/HE_Nondeveloping5/output/cellpose_boundary/MS1168
+
+[3/5] Processing: MS1269
+  [Skip] Output exists in: /ceph.groups/mshahbazi.grp/rsakata/HE_Nondeveloping5/output/cellpose_boundary/MS1269
+
+[4/5] Processing: MS1299_Gd
+  [Skip] Output exists in: /ceph.groups/mshahbazi.grp/rsakata/HE_Nondeveloping5/output/cellpose_boundary/MS1299_Gd
+
+[5/5] Processing: MS1272
+  [Skip] Output exists in: /ceph.groups/mshahbazi.grp/rsakata/HE_Nondeveloping5/output/cellpose_boundary/MS1272
+
+All done in 0.0s

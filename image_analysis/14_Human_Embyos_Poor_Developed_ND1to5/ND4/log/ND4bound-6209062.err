@@ -1,0 +1,31 @@
+/lmb/home/rsakata/anaconda3/envs/cellpose_env/lib/python3.11/site-packages/torch/cuda/__init__.py:283: UserWarning: 
+    Found GPU0 NVIDIA GeForce GTX 1080 Ti which is of cuda capability 6.1.
+    Minimum and Maximum cuda capability supported by this version of PyTorch is
+    (7.0) - (12.0)
+    
+  warnings.warn(
+/lmb/home/rsakata/anaconda3/envs/cellpose_env/lib/python3.11/site-packages/torch/cuda/__init__.py:304: UserWarning: 
+    Please install PyTorch with a following CUDA
+    configurations:  12.6 following instructions at
+    https://pytorch.org/get-started/locally/
+    
+  warnings.warn(matched_cuda_warn.format(matched_arches))
+/lmb/home/rsakata/anaconda3/envs/cellpose_env/lib/python3.11/site-packages/torch/cuda/__init__.py:326: UserWarning: 
+NVIDIA GeForce GTX 1080 Ti with CUDA capability sm_61 is not compatible with the current PyTorch installation.
+The current PyTorch install supports CUDA capabilities sm_70 sm_75 sm_80 sm_86 sm_90 sm_100 sm_120.
+If you want to use the NVIDIA GeForce GTX 1080 Ti GPU with PyTorch, please check the instructions at https://pytorch.org/get-started/locally/
+
+  warnings.warn(
+Traceback (most recent call last):
+  File "/ceph.groups/mshahbazi.grp/rsakata/HE_Nondeveloping4/code/cellpose_boundary.py", line 81, in <module>
+    model = models.CellposeModel(gpu=use_GPU)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/lmb/home/rsakata/anaconda3/envs/cellpose_env/lib/python3.11/site-packages/cellpose/models.py", line 148, in __init__
+    self.net.load_model(self.pretrained_model, device=self.device)
+  File "/lmb/home/rsakata/anaconda3/envs/cellpose_env/lib/python3.11/site-packages/cellpose/vit_sam.py", line 93, in load_model
+    self.load_state_dict(state_dict, strict = strict)
+  File "/lmb/home/rsakata/anaconda3/envs/cellpose_env/lib/python3.11/site-packages/torch/nn/modules/module.py", line 2624, in load_state_dict
+    raise RuntimeError(
+RuntimeError: Error(s) in loading state_dict for Transformer:
+	While copying the parameter named "encoder.pos_embed", whose dimensions in the model are torch.Size([1, 32, 32, 1024]) and whose dimensions in the checkpoint are torch.Size([1, 32, 32, 1024]), an exception occurred : ('CUDA error: no kernel image is available for execution on the device\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n',).
+	While copying the parameter named "encoder.patch_embed.proj.weight", whose dimensions in the model are torch.Size([1024, 3, 8, 8]) and whose dimensions in the checkpoint are torch.Size([1024, 3, 8, 8]), an exception occurred : ('CUDA error: no kernel image is available for execution on the device\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n',).

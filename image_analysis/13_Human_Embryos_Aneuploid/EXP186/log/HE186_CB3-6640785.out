@@ -1,0 +1,63 @@
+lmbwide.profile complete
+Job 6640785 on fmg104.lmb.internal
+Python 3.11.13
+/lmb/home/rsakata/anaconda3/envs/cellpose_env/bin/python
+CUDA available: True
+Torch CUDA runtime: 12.8
+Visible GPUs: 0
+Tue Aug 11 14:05:33 2026       
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 610.57.04              KMD Version: 610.57.04     CUDA UMD Version: 13.3     |
++-----------------------------------------+------------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+|   0  NVIDIA A100-SXM4-80GB          Off |   00000000:07:00.0 Off |                    0 |
+| N/A   26C    P0             62W /  400W |       0MiB /  81920MiB |      0%      Default |
+|                                         |                        |             Disabled |
++-----------------------------------------+------------------------+----------------------+
+
++-----------------------------------------------------------------------------------------+
+| Processes:                                                                              |
+|  GPU   GI   CI              PID   Type   Process name                        GPU Memory |
+|        ID   ID                                                               Usage      |
+|=========================================================================================|
+|  No running processes found                                                             |
++-----------------------------------------------------------------------------------------+
+
+
+Welcome to CellposeSAM, cellpose v
+cellpose version: 	4.0.6 
+platform:       	linux 
+python version: 	3.11.13 
+torch version:  	2.8.0+cu128! The neural network component of
+CPSAM is much larger than in previous versions and CPU excution is slow. 
+We encourage users to use GPU/MPS if available. 
+
+
+Initializing Cellpose model...
+Model loaded. GPU: True
+Found 12 TIFF files in /ceph.groups/mshahbazi.grp/rsakata/HE_EXP186/LIF2TIF
+[array] task 7: /ceph.groups/mshahbazi.grp/rsakata/HE_EXP186/LIF2TIF/EXP186_DAPI_ECAD_BF_NANOG_GATA3_GATA4_serie_4 - MS757.tif
+
+[1/1] Processing: MS757
+  > Voxel size 0.7583 µm/px agrees with file metadata.
+  > Axes from file axes metadata (ZCYX): (66, 6, 512, 512) -> (66, 6, 512, 512) (Z,C,Y,X)
+  > Z=66, C=6, Y=512, X=512; pixel 0.7583 um; cell-mask min_size=18 px (= 10.0 um2); DAPI-mask min_size=18 px (= 10.0 um2)
+  > Segmenting cell masks in 66 slices using ['ECAD', 'DAPI']...
+  > 1937 slice-local cell masks across 66/66 slices
+  > Segmenting DAPI masks in 66 slices using ['DAPI']...
+  > 1784 slice-local DAPI masks across 65/66 slices
+  > Object area um2: p5=44 median=116 p95=220 (cutoff 10.0)
+  > Mask-to-mask gap at candidate interfaces um: p10=0.00 median=1.52 p90=3.21 (MAX_PAIR_GAP_UM=1.0)
+  > Finding interfaces, assigning DAPI masks, and sampling ribbons...
+  > DAPI assignment: 1686 cell masks assigned from 1784 DAPI masks; 274 geometric pairs removed because one or both cells lacked a valid DAPI mask
+  [QC] 16 DAPI-mask assignments involved cells with multiple candidate nuclei; the strongest-overlap nucleus was retained
+  > 1084 interfaces retained after geometry and mandatory DAPI-mask filtering (1358 geometric; 1800 candidates)
+  [QC] ECAD peak vs geometric zero: median +0.00 µm, IQR -1.00 to +1.00 µm, n=1084 (reported only, not applied)
+  > Saved pair statistics: /ceph.groups/mshahbazi.grp/rsakata/HE_EXP186/cellpose/output/cellpose_boundary/MS757/MS757_pair_stats.csv (1084 pairs)
+  > Saved summary: /ceph.groups/mshahbazi.grp/rsakata/HE_EXP186/cellpose/output/cellpose_boundary/MS757/MS757_summary.csv
+  > Saved profiles: /ceph.groups/mshahbazi.grp/rsakata/HE_EXP186/cellpose/output/cellpose_boundary/MS757/MS757_profiles.csv (134346 rows)
+
+All done in 39.4 s

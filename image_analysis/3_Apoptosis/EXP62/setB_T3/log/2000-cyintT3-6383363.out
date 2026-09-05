@@ -1,0 +1,90 @@
+lmbwide.profile complete
+Job 6383363 on fmg102.lmb.internal
+Tue Apr 14 21:21:08 BST 2026
+Python 3.11.13
+/lmb/home/rsakata/anaconda3/envs/cellpose_env/bin/python
+CUDA available: True
+Torch CUDA runtime: 12.8
+Visible GPUs: 0
+Tue Apr 14 21:21:10 2026       
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 595.58.03              Driver Version: 595.58.03      CUDA Version: 13.2     |
++-----------------------------------------+------------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+|   0  NVIDIA A100-SXM4-40GB          Off |   00000000:0A:00.0 Off |                    0 |
+| N/A   21C    P0             51W /  400W |       0MiB /  40960MiB |      0%      Default |
+|                                         |                        |             Disabled |
++-----------------------------------------+------------------------+----------------------+
+
++-----------------------------------------------------------------------------------------+
+| Processes:                                                                              |
+|  GPU   GI   CI              PID   Type   Process name                        GPU Memory |
+|        ID   ID                                                               Usage      |
+|=========================================================================================|
+|  No running processes found                                                             |
++-----------------------------------------------------------------------------------------+
+Processing EXP62_setB_T3_DAPI_phalloidin_GFP_ECAD_caspase3_serie_1 - 5_1
+Processing EXP62_setB_T3_DAPI_phalloidin_GFP_ECAD_caspase3_serie_10 - 6_6
+Processing EXP62_setB_T3_DAPI_phalloidin_GFP_ECAD_caspase3_serie_11 - 7_1
+Processing EXP62_setB_T3_DAPI_phalloidin_GFP_ECAD_caspase3_serie_12 - 7_2-1
+Processing EXP62_setB_T3_DAPI_phalloidin_GFP_ECAD_caspase3_serie_13 - 7_3
+Processing EXP62_setB_T3_DAPI_phalloidin_GFP_ECAD_caspase3_serie_14 - 7_4
+Processing EXP62_setB_T3_DAPI_phalloidin_GFP_ECAD_caspase3_serie_15 - 7_5
+Processing EXP62_setB_T3_DAPI_phalloidin_GFP_ECAD_caspase3_serie_16 - 8_1-1
+Processing EXP62_setB_T3_DAPI_phalloidin_GFP_ECAD_caspase3_serie_16 - 8_1-2
+Processing EXP62_setB_T3_DAPI_phalloidin_GFP_ECAD_caspase3_serie_16 - 8_1-3
+Processing EXP62_setB_T3_DAPI_phalloidin_GFP_ECAD_caspase3_serie_17 - 8_2-1
+Processing EXP62_setB_T3_DAPI_phalloidin_GFP_ECAD_caspase3_serie_17 - 8_2-2
+Processing EXP62_setB_T3_DAPI_phalloidin_GFP_ECAD_caspase3_serie_18 - 8_3-1
+Processing EXP62_setB_T3_DAPI_phalloidin_GFP_ECAD_caspase3_serie_18 - 8_3-2
+Processing EXP62_setB_T3_DAPI_phalloidin_GFP_ECAD_caspase3_serie_19 - 8_4-1
+Processing EXP62_setB_T3_DAPI_phalloidin_GFP_ECAD_caspase3_serie_19 - 8_4-2
+Processing EXP62_setB_T3_DAPI_phalloidin_GFP_ECAD_caspase3_serie_19 - 8_4-3
+Processing EXP62_setB_T3_DAPI_phalloidin_GFP_ECAD_caspase3_serie_2 - 5_2
+Processing EXP62_setB_T3_DAPI_phalloidin_GFP_ECAD_caspase3_serie_20 - 8_5-1
+Processing EXP62_setB_T3_DAPI_phalloidin_GFP_ECAD_caspase3_serie_20 - 8_5-2
+Processing EXP62_setB_T3_DAPI_phalloidin_GFP_ECAD_caspase3_serie_21 - 8_6-1
+Processing EXP62_setB_T3_DAPI_phalloidin_GFP_ECAD_caspase3_serie_21 - 8_6-2
+Processing EXP62_setB_T3_DAPI_phalloidin_GFP_ECAD_caspase3_serie_22 - 12_1-1
+Processing EXP62_setB_T3_DAPI_phalloidin_GFP_ECAD_caspase3_serie_22 - 12_1-2
+Processing EXP62_setB_T3_DAPI_phalloidin_GFP_ECAD_caspase3_serie_23 - 12_2-2
+Processing EXP62_setB_T3_DAPI_phalloidin_GFP_ECAD_caspase3_serie_24 - 12_3-1
+Processing EXP62_setB_T3_DAPI_phalloidin_GFP_ECAD_caspase3_serie_24 - 12_3-2
+Processing EXP62_setB_T3_DAPI_phalloidin_GFP_ECAD_caspase3_serie_25 - 12_4
+Processing EXP62_setB_T3_DAPI_phalloidin_GFP_ECAD_caspase3_serie_26 - 12_5
+Processing EXP62_setB_T3_DAPI_phalloidin_GFP_ECAD_caspase3_serie_27 - 12_6
+Processing EXP62_setB_T3_DAPI_phalloidin_GFP_ECAD_caspase3_serie_28 - 10_1
+Processing EXP62_setB_T3_DAPI_phalloidin_GFP_ECAD_caspase3_serie_29 - 10_2
+Processing EXP62_setB_T3_DAPI_phalloidin_GFP_ECAD_caspase3_serie_3 - 5_3
+Processing EXP62_setB_T3_DAPI_phalloidin_GFP_ECAD_caspase3_serie_30 - 10_3
+Processing EXP62_setB_T3_DAPI_phalloidin_GFP_ECAD_caspase3_serie_31 - 10_4-1
+Processing EXP62_setB_T3_DAPI_phalloidin_GFP_ECAD_caspase3_serie_31 - 10_4-2
+Processing EXP62_setB_T3_DAPI_phalloidin_GFP_ECAD_caspase3_serie_32 - 10_5
+Processing EXP62_setB_T3_DAPI_phalloidin_GFP_ECAD_caspase3_serie_33 - 10_6
+Processing EXP62_setB_T3_DAPI_phalloidin_GFP_ECAD_caspase3_serie_34 - 10_7
+Processing EXP62_setB_T3_DAPI_phalloidin_GFP_ECAD_caspase3_serie_35 - 9_1
+Processing EXP62_setB_T3_DAPI_phalloidin_GFP_ECAD_caspase3_serie_36 - 9_2
+Processing EXP62_setB_T3_DAPI_phalloidin_GFP_ECAD_caspase3_serie_37 - 9_3
+Processing EXP62_setB_T3_DAPI_phalloidin_GFP_ECAD_caspase3_serie_38 - 9_4
+Processing EXP62_setB_T3_DAPI_phalloidin_GFP_ECAD_caspase3_serie_39 - 9_5
+Processing EXP62_setB_T3_DAPI_phalloidin_GFP_ECAD_caspase3_serie_4 - 5_4
+Processing EXP62_setB_T3_DAPI_phalloidin_GFP_ECAD_caspase3_serie_40 - 9_6
+Processing EXP62_setB_T3_DAPI_phalloidin_GFP_ECAD_caspase3_serie_5 - 6_1
+Processing EXP62_setB_T3_DAPI_phalloidin_GFP_ECAD_caspase3_serie_6 - 6_2-1
+Processing EXP62_setB_T3_DAPI_phalloidin_GFP_ECAD_caspase3_serie_6 - 6_2-2
+Processing EXP62_setB_T3_DAPI_phalloidin_GFP_ECAD_caspase3_serie_7 - 6_3
+Processing EXP62_setB_T3_DAPI_phalloidin_GFP_ECAD_caspase3_serie_8 - 6_4-1
+Processing EXP62_setB_T3_DAPI_phalloidin_GFP_ECAD_caspase3_serie_8 - 6_4-2
+Processing EXP62_setB_T3_DAPI_phalloidin_GFP_ECAD_caspase3_serie_9 - 6_5-1
+Wrote /ceph.groups/mshahbazi.grp/rsakata/EXP62/output/setB_T3/3_cytomask_intensities
+                                                file  ...  caspase3_mean
+0  EXP62_setB_T3_DAPI_phalloidin_GFP_ECAD_caspase...  ...       1.817727
+1  EXP62_setB_T3_DAPI_phalloidin_GFP_ECAD_caspase...  ...       4.813595
+2  EXP62_setB_T3_DAPI_phalloidin_GFP_ECAD_caspase...  ...       2.272591
+3  EXP62_setB_T3_DAPI_phalloidin_GFP_ECAD_caspase...  ...       2.149414
+4  EXP62_setB_T3_DAPI_phalloidin_GFP_ECAD_caspase...  ...       2.183380
+
+[5 rows x 10 columns]

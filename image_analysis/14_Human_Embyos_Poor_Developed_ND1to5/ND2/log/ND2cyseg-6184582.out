@@ -1,0 +1,36 @@
+lmbwide.profile complete
+Job 6184582 on fmg101.lmb.internal
+Python 3.11.13
+/lmb/home/rsakata/anaconda3/envs/cellpose_env/bin/python
+CUDA available: True
+Torch CUDA runtime: 12.8
+Visible GPUs: 0
+Sat Jan 17 13:45:14 2026       
++---------------------------------------------------------------------------------------+
+| NVIDIA-SMI 535.86.10              Driver Version: 535.86.10    CUDA Version: 12.2     |
+|-----------------------------------------+----------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |         Memory-Usage | GPU-Util  Compute M. |
+|                                         |                      |               MIG M. |
+|=========================================+======================+======================|
+|   0  NVIDIA A100-SXM4-40GB          On  | 00000000:07:00.0 Off |                    0 |
+| N/A   26C    P0              54W / 400W |      4MiB / 40960MiB |      0%      Default |
+|                                         |                      |             Disabled |
++-----------------------------------------+----------------------+----------------------+
+                                                                                         
++---------------------------------------------------------------------------------------+
+| Processes:                                                                            |
+|  GPU   GI   CI        PID   Type   Process name                            GPU Memory |
+|        ID   ID                                                             Usage      |
+|=======================================================================================|
+|  No running processes found                                                           |
++---------------------------------------------------------------------------------------+
+Found 5 TIFs.
+[array] task 2: /ceph.groups/mshahbazi.grp/rsakata/HE_Nondeveloping2/LIF2TIF/Nondeveloping_2__271012025_DAPI_GATA4_NANOG_GATA3_ZO1_serie_3 - MS864_Gd.tif
+
+=== Processing: Nondeveloping_2__271012025_DAPI_GATA4_NANOG_GATA3_ZO1_serie_3 - MS864_Gd.tif ===
+ shape :  (201, 5, 1024, 1024).
+  Saved mask: /ceph.groups/mshahbazi.grp/rsakata/HE_Nondeveloping2/output/cyto_mask/Nondeveloping_2__271012025_DAPI_GATA4_NANOG_GATA3_ZO1_serie_3 - MS864_Gd_mask.tif  (voxels=20673053)
+  Saved QC: /ceph.groups/mshahbazi.grp/rsakata/HE_Nondeveloping2/output/cyto_mask/Nondeveloping_2__271012025_DAPI_GATA4_NANOG_GATA3_ZO1_serie_3 - MS864_Gd_qc.png
+
+Done in 579.4s

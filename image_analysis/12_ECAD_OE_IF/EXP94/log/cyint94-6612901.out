@@ -1,0 +1,111 @@
+lmbwide.profile complete
+Job 6612901 on fmg102.lmb.internal
+Sat Aug  1 11:29:28 BST 2026
+Python 3.11.13
+/lmb/home/rsakata/anaconda3/envs/cellpose_env/bin/python
+CUDA available: True
+Torch CUDA runtime: 12.8
+Visible GPUs: 0
+Sat Aug  1 11:29:30 2026       
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 610.43.02              KMD Version: 610.43.02     CUDA UMD Version: 13.3     |
++-----------------------------------------+------------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+|   0  NVIDIA A100-SXM4-40GB          Off |   00000000:87:00.0 Off |                    0 |
+| N/A   23C    P0             51W /  400W |       0MiB /  40960MiB |      0%      Default |
+|                                         |                        |             Disabled |
++-----------------------------------------+------------------------+----------------------+
+
++-----------------------------------------------------------------------------------------+
+| Processes:                                                                              |
+|  GPU   GI   CI              PID   Type   Process name                        GPU Memory |
+|        ID   ID                                                               Usage      |
+|=========================================================================================|
+|  No running processes found                                                             |
++-----------------------------------------------------------------------------------------+
+Processing EXP94_DAPI_GATA3_BF_GFP_mcherry_NANOG_serie_1 - 1_1
+Processing EXP94_DAPI_GATA3_BF_GFP_mcherry_NANOG_serie_100 - 6_13-1
+Processing EXP94_DAPI_GATA3_BF_GFP_mcherry_NANOG_serie_100 - 6_13-2
+Processing EXP94_DAPI_GATA3_BF_GFP_mcherry_NANOG_serie_101 - 6_14
+Processing EXP94_DAPI_GATA3_BF_GFP_mcherry_NANOG_serie_102 - 6_15
+Processing EXP94_DAPI_GATA3_BF_GFP_mcherry_NANOG_serie_103 - 5_1-1
+Processing EXP94_DAPI_GATA3_BF_GFP_mcherry_NANOG_serie_103 - 5_1-2
+Processing EXP94_DAPI_GATA3_BF_GFP_mcherry_NANOG_serie_104 - 5_2
+Processing EXP94_DAPI_GATA3_BF_GFP_mcherry_NANOG_serie_105 - 5_3
+Processing EXP94_DAPI_GATA3_BF_GFP_mcherry_NANOG_serie_106 - 5_4
+Processing EXP94_DAPI_GATA3_BF_GFP_mcherry_NANOG_serie_107 - 5_5
+Processing EXP94_DAPI_GATA3_BF_GFP_mcherry_NANOG_serie_108 - 5_6-1
+Processing EXP94_DAPI_GATA3_BF_GFP_mcherry_NANOG_serie_108 - 5_6-2
+Processing EXP94_DAPI_GATA3_BF_GFP_mcherry_NANOG_serie_109 - 5_7
+Processing EXP94_DAPI_GATA3_BF_GFP_mcherry_NANOG_serie_11 - 1_11
+Processing EXP94_DAPI_GATA3_BF_GFP_mcherry_NANOG_serie_110 - 5_8-1
+Processing EXP94_DAPI_GATA3_BF_GFP_mcherry_NANOG_serie_110 - 5_8-2
+Processing EXP94_DAPI_GATA3_BF_GFP_mcherry_NANOG_serie_110 - 5_8-3
+Processing EXP94_DAPI_GATA3_BF_GFP_mcherry_NANOG_serie_111 - 5_9
+Processing EXP94_DAPI_GATA3_BF_GFP_mcherry_NANOG_serie_112 - 5_10-1
+Processing EXP94_DAPI_GATA3_BF_GFP_mcherry_NANOG_serie_112 - 5_10-2
+Processing EXP94_DAPI_GATA3_BF_GFP_mcherry_NANOG_serie_113 - 5_11
+Processing EXP94_DAPI_GATA3_BF_GFP_mcherry_NANOG_serie_114 - 5_12
+Processing EXP94_DAPI_GATA3_BF_GFP_mcherry_NANOG_serie_115 - 5_13
+Processing EXP94_DAPI_GATA3_BF_GFP_mcherry_NANOG_serie_116 - 5_14
+Processing EXP94_DAPI_GATA3_BF_GFP_mcherry_NANOG_serie_117 - 5_15-1
+Processing EXP94_DAPI_GATA3_BF_GFP_mcherry_NANOG_serie_117 - 5_15-2
+Processing EXP94_DAPI_GATA3_BF_GFP_mcherry_NANOG_serie_12 - 1_12
+Processing EXP94_DAPI_GATA3_BF_GFP_mcherry_NANOG_serie_13 - 1_13-1
+Processing EXP94_DAPI_GATA3_BF_GFP_mcherry_NANOG_serie_14 - 1_14-1
+Processing EXP94_DAPI_GATA3_BF_GFP_mcherry_NANOG_serie_15 - 1_15-1
+Processing EXP94_DAPI_GATA3_BF_GFP_mcherry_NANOG_serie_15 - 1_15-2
+Processing EXP94_DAPI_GATA3_BF_GFP_mcherry_NANOG_serie_16 - 1_16
+Processing EXP94_DAPI_GATA3_BF_GFP_mcherry_NANOG_serie_17 - 1_17-1
+Processing EXP94_DAPI_GATA3_BF_GFP_mcherry_NANOG_serie_17 - 1_17-2
+Processing EXP94_DAPI_GATA3_BF_GFP_mcherry_NANOG_serie_18 - 2_1-1
+Processing EXP94_DAPI_GATA3_BF_GFP_mcherry_NANOG_serie_18 - 2_1-2
+Processing EXP94_DAPI_GATA3_BF_GFP_mcherry_NANOG_serie_19 - 2_2
+Processing EXP94_DAPI_GATA3_BF_GFP_mcherry_NANOG_serie_2 - 1_2-1
+Processing EXP94_DAPI_GATA3_BF_GFP_mcherry_NANOG_serie_2 - 1_2-2
+Processing EXP94_DAPI_GATA3_BF_GFP_mcherry_NANOG_serie_20 - 2_3
+Processing EXP94_DAPI_GATA3_BF_GFP_mcherry_NANOG_serie_21 - 2_4
+Processing EXP94_DAPI_GATA3_BF_GFP_mcherry_NANOG_serie_22 - 2_5
+Processing EXP94_DAPI_GATA3_BF_GFP_mcherry_NANOG_serie_23 - 2_6-1
+Processing EXP94_DAPI_GATA3_BF_GFP_mcherry_NANOG_serie_23 - 2_6-2
+Processing EXP94_DAPI_GATA3_BF_GFP_mcherry_NANOG_serie_23 - 2_6-3
+Processing EXP94_DAPI_GATA3_BF_GFP_mcherry_NANOG_serie_25 - 2_8-1
+Processing EXP94_DAPI_GATA3_BF_GFP_mcherry_NANOG_serie_25 - 2_8-2
+Processing EXP94_DAPI_GATA3_BF_GFP_mcherry_NANOG_serie_25 - 2_8-3
+Processing EXP94_DAPI_GATA3_BF_GFP_mcherry_NANOG_serie_26 - 2_9
+Processing EXP94_DAPI_GATA3_BF_GFP_mcherry_NANOG_serie_27 - 2_10-1
+Processing EXP94_DAPI_GATA3_BF_GFP_mcherry_NANOG_serie_27 - 2_10-2
+Processing EXP94_DAPI_GATA3_BF_GFP_mcherry_NANOG_serie_28 - 2_11
+Processing EXP94_DAPI_GATA3_BF_GFP_mcherry_NANOG_serie_29 - 2_13
+Processing EXP94_DAPI_GATA3_BF_GFP_mcherry_NANOG_serie_3 - 1_3
+Processing EXP94_DAPI_GATA3_BF_GFP_mcherry_NANOG_serie_4 - 1_4
+Processing EXP94_DAPI_GATA3_BF_GFP_mcherry_NANOG_serie_5 - 1_5-1
+Processing EXP94_DAPI_GATA3_BF_GFP_mcherry_NANOG_serie_6 - 1_6-1
+Processing EXP94_DAPI_GATA3_BF_GFP_mcherry_NANOG_serie_7 - 1_7
+Processing EXP94_DAPI_GATA3_BF_GFP_mcherry_NANOG_serie_8 - 1_8-1
+Processing EXP94_DAPI_GATA3_BF_GFP_mcherry_NANOG_serie_89 - 6_1-1
+Processing EXP94_DAPI_GATA3_BF_GFP_mcherry_NANOG_serie_89 - 6_1-2
+Processing EXP94_DAPI_GATA3_BF_GFP_mcherry_NANOG_serie_9 - 1_9-1
+Processing EXP94_DAPI_GATA3_BF_GFP_mcherry_NANOG_serie_90 - 6_2
+Processing EXP94_DAPI_GATA3_BF_GFP_mcherry_NANOG_serie_91 - 6_4
+Processing EXP94_DAPI_GATA3_BF_GFP_mcherry_NANOG_serie_92 - 6_5
+Processing EXP94_DAPI_GATA3_BF_GFP_mcherry_NANOG_serie_93 - 6_6
+Processing EXP94_DAPI_GATA3_BF_GFP_mcherry_NANOG_serie_94 - 6_7-1
+Processing EXP94_DAPI_GATA3_BF_GFP_mcherry_NANOG_serie_94 - 6_7-2
+Processing EXP94_DAPI_GATA3_BF_GFP_mcherry_NANOG_serie_95 - 6_8
+Processing EXP94_DAPI_GATA3_BF_GFP_mcherry_NANOG_serie_96 - 6_9
+Processing EXP94_DAPI_GATA3_BF_GFP_mcherry_NANOG_serie_97 - 6_10-1
+Processing EXP94_DAPI_GATA3_BF_GFP_mcherry_NANOG_serie_98 - 6_11
+Processing EXP94_DAPI_GATA3_BF_GFP_mcherry_NANOG_serie_99 - 6_12
+Wrote /ceph.groups/mshahbazi.grp/rsakata/EXP94/all/cellpose/output/3_cytomask_intensities
+                                                file  ...  NANOG_mean
+0  EXP94_DAPI_GATA3_BF_GFP_mcherry_NANOG_serie_1 ...  ...    9.023169
+1  EXP94_DAPI_GATA3_BF_GFP_mcherry_NANOG_serie_10...  ...   10.979588
+2  EXP94_DAPI_GATA3_BF_GFP_mcherry_NANOG_serie_10...  ...    7.943555
+3  EXP94_DAPI_GATA3_BF_GFP_mcherry_NANOG_serie_10...  ...    8.548070
+4  EXP94_DAPI_GATA3_BF_GFP_mcherry_NANOG_serie_10...  ...    4.841648
+
+[5 rows x 11 columns]

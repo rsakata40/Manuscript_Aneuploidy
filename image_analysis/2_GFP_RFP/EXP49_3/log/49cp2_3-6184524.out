@@ -1,0 +1,52 @@
+lmbwide.profile complete
+Job 6184524 on fmg102.lmb.internal
+Python 3.11.13
+/lmb/home/rsakata/anaconda3/envs/cellpose_env/bin/python
+CUDA available: True
+Torch CUDA runtime: 12.8
+Visible GPUs: 0
+Sat Jan 17 12:48:39 2026       
++---------------------------------------------------------------------------------------+
+| NVIDIA-SMI 535.86.10              Driver Version: 535.86.10    CUDA Version: 12.2     |
+|-----------------------------------------+----------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |         Memory-Usage | GPU-Util  Compute M. |
+|                                         |                      |               MIG M. |
+|=========================================+======================+======================|
+|   0  NVIDIA A100-SXM4-40GB          Off | 00000000:C7:00.0 Off |                    0 |
+| N/A   26C    P0              51W / 400W |      4MiB / 40960MiB |      0%      Default |
+|                                         |                      |             Disabled |
++-----------------------------------------+----------------------+----------------------+
+                                                                                         
++---------------------------------------------------------------------------------------+
+| Processes:                                                                            |
+|  GPU   GI   CI        PID   Type   Process name                            GPU Memory |
+|        ID   ID                                                             Usage      |
+|=======================================================================================|
+|  No running processes found                                                           |
++---------------------------------------------------------------------------------------+
+
+
+Welcome to CellposeSAM, cellpose v
+cellpose version: 	4.0.6 
+platform:       	linux 
+python version: 	3.11.13 
+torch version:  	2.8.0+cu128! The neural network component of
+CPSAM is much larger than in previous versions and CPU excution is slow. 
+We encourage users to use GPU/MPS if available. 
+
+
+>>> GPU: True
+Found 22 TIFs
+[array] task 6: /ceph.groups/mshahbazi.grp/rsakata/EXP49/LIF2TIF/batch3/EXP49_DAPI_Phalloindin_GFP_mcherry_6-1_tile_serie_1-3.tif
+
+=== Processing: EXP49_DAPI_Phalloindin_GFP_mcherry_6-1_tile_serie_1-3.tif → sample: EXP49_DAPI_Phalloindin_GFP_mcherry_6-1_tile_serie_1-3 ===
+Original shape: (53, 390, 225, 4)
+Objects: before=114, after=114 (minV=2788.0390325527737 vox)
+No spheroid labels found for this sample; skipping cell↔spheroid mapping.
+Saved: /ceph.groups/mshahbazi.grp/rsakata/EXP49/output/batch3/EXP49_DAPI_Phalloindin_GFP_mcherry_6-1_tile_serie_1-3_mosaic_a-c-b-d.png
+Saved: /ceph.groups/mshahbazi.grp/rsakata/EXP49/output/batch3/EXP49_DAPI_Phalloindin_GFP_mcherry_6-1_tile_serie_1-3_scatter_GFP_vs_RFP_m1.0.png
+Saved: /ceph.groups/mshahbazi.grp/rsakata/EXP49/output/batch3/EXP49_DAPI_Phalloindin_GFP_mcherry_6-1_tile_serie_1-3_hist_volume_prefilter_minV800um3.png
+Minimum volume threshold: 800.0 µm³ (~2788.0 vox)
+
+All done in 40.8s

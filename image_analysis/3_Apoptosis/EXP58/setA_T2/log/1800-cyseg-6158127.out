@@ -1,0 +1,35 @@
+lmbwide.profile complete
+Job 6158127 on fmg04.lmb.internal
+Python 3.11.13
+/lmb/home/rsakata/anaconda3/envs/cellpose_env/bin/python
+CUDA available: True
+Torch CUDA runtime: 12.8
+Visible GPUs: 0
+Wed Jan  7 20:03:30 2026       
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 570.153.02             Driver Version: 570.153.02     CUDA Version: 12.8     |
+|-----------------------------------------+------------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+|   0  NVIDIA GeForce GTX 1080 Ti     On  |   00000000:83:00.0 Off |                  N/A |
+| 23%   23C    P8              9W /  250W |       2MiB /  11264MiB |      0%      Default |
+|                                         |                        |                  N/A |
++-----------------------------------------+------------------------+----------------------+
+                                                                                         
++-----------------------------------------------------------------------------------------+
+| Processes:                                                                              |
+|  GPU   GI   CI              PID   Type   Process name                        GPU Memory |
+|        ID   ID                                                               Usage      |
+|=========================================================================================|
+|  No running processes found                                                             |
++-----------------------------------------------------------------------------------------+
+Found 27 TIFs.
+[array] task 2: /ceph.groups/mshahbazi.grp/rsakata/EXP58/LIF2TIF/setA_T2/LIF2TIF/EXP58_setA_T2_DAPI_GATA3_GFP_ZO1_NANOG_serie_3 - 1_3.tif
+
+=== Processing: EXP58_setA_T2_DAPI_GATA3_GFP_ZO1_NANOG_serie_3 - 1_3.tif ===
+  Saved mask: /ceph.groups/mshahbazi.grp/rsakata/EXP58/output/setA_T2/2_cytoseg/EXP58_setA_T2_DAPI_GATA3_GFP_ZO1_NANOG_serie_3 - 1_3_mask.tif  (voxels=286535)
+  Saved QC: /ceph.groups/mshahbazi.grp/rsakata/EXP58/output/setA_T2/2_cytoseg/EXP58_setA_T2_DAPI_GATA3_GFP_ZO1_NANOG_serie_3 - 1_3_qc.png
+
+Done in 14.6s

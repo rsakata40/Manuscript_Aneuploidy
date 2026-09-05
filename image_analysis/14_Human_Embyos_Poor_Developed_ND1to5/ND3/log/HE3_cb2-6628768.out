@@ -1,0 +1,59 @@
+lmbwide.profile complete
+Job 6628768 on fmg103.lmb.internal
+Python 3.11.13
+/lmb/home/rsakata/anaconda3/envs/cellpose_env/bin/python
+CUDA available: True
+Torch CUDA runtime: 12.8
+Visible GPUs: 0
+Thu Aug  6 11:05:44 2026       
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 610.57.04              KMD Version: 610.57.04     CUDA UMD Version: 13.3     |
++-----------------------------------------+------------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+|   0  NVIDIA A100-SXM4-40GB          Off |   00000000:C9:00.0 Off |                    0 |
+| N/A   28C    P0             55W /  400W |       0MiB /  40960MiB |      0%      Default |
+|                                         |                        |             Disabled |
++-----------------------------------------+------------------------+----------------------+
+
++-----------------------------------------------------------------------------------------+
+| Processes:                                                                              |
+|  GPU   GI   CI              PID   Type   Process name                        GPU Memory |
+|        ID   ID                                                               Usage      |
+|=========================================================================================|
+|  No running processes found                                                             |
++-----------------------------------------------------------------------------------------+
+
+
+Welcome to CellposeSAM, cellpose v
+cellpose version: 	4.0.6 
+platform:       	linux 
+python version: 	3.11.13 
+torch version:  	2.8.0+cu128! The neural network component of
+CPSAM is much larger than in previous versions and CPU excution is slow. 
+We encourage users to use GPU/MPS if available. 
+
+
+Initializing Cellpose model...
+Model loaded. GPU: True
+Found 3 TIFF files in /ceph.groups/mshahbazi.grp/rsakata/HE_Nondeveloping3/LIF2TIF
+[array] task 1: /ceph.groups/mshahbazi.grp/rsakata/HE_Nondeveloping3/LIF2TIF/Nondeveloping_3__12072025_DAPI_GATA4_NANOG_GATA3_ECAD_serie_2 - MS966_Bd.tif
+
+[1/1] Processing: MS966_Bd
+  > Voxel size 0.3788 µm/px agrees with file metadata.
+  > Axes from file axes metadata (ZCYX): (115, 5, 1024, 1024) -> (115, 5, 1024, 1024) (Z,C,Y,X)
+  > Z=115, C=5, Y=1024, X=1024; pixel 0.3788 um; Cellpose min_size=70 px (= 10.0 um2)
+  > Segmenting 115 slices using ['ECAD', 'DAPI']...
+  > 967 slice-local objects across 98/115 slices
+  > Object area um2: p5=32 median=135 p95=1172 (cutoff 10.0)
+  > Mask-to-mask gap at candidate interfaces um: p10=0.00 median=0.00 p90=3.08 (MAX_PAIR_GAP_UM=1.0)
+  > Finding interfaces and sampling ribbons...
+  > 367 of 575 candidate interfaces retained
+  [QC] ECAD peak vs geometric zero: median +0.00 µm, IQR -1.50 to +1.00 µm, n=367 (reported only, not applied)
+  > Saved pair statistics: /ceph.groups/mshahbazi.grp/rsakata/HE_Nondeveloping3/output/cellpose_boundary2.3/MS966_Bd/MS966_Bd_pair_stats.csv (367 pairs)
+  > Saved summary: /ceph.groups/mshahbazi.grp/rsakata/HE_Nondeveloping3/output/cellpose_boundary2.3/MS966_Bd/MS966_Bd_summary.csv
+  > Saved profiles: /ceph.groups/mshahbazi.grp/rsakata/HE_Nondeveloping3/output/cellpose_boundary2.3/MS966_Bd/MS966_Bd_profiles.csv (36550 rows)
+
+All done in 87.2 s

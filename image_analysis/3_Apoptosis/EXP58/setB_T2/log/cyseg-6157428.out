@@ -1,0 +1,63 @@
+lmbwide.profile complete
+Job 6157428 on fmg101.lmb.internal
+Python 3.11.13
+/lmb/home/rsakata/anaconda3/envs/cellpose_env/bin/python
+CUDA available: True
+Torch CUDA runtime: 12.8
+Visible GPUs: 0,1,2,3,4,5,6,7
+Wed Jan  7 15:22:02 2026       
++---------------------------------------------------------------------------------------+
+| NVIDIA-SMI 535.86.10              Driver Version: 535.86.10    CUDA Version: 12.2     |
+|-----------------------------------------+----------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |         Memory-Usage | GPU-Util  Compute M. |
+|                                         |                      |               MIG M. |
+|=========================================+======================+======================|
+|   0  NVIDIA A100-SXM4-40GB          On  | 00000000:07:00.0 Off |                    0 |
+| N/A   28C    P0              54W / 400W |      4MiB / 40960MiB |      0%      Default |
+|                                         |                      |             Disabled |
++-----------------------------------------+----------------------+----------------------+
+|   1  NVIDIA A100-SXM4-40GB          On  | 00000000:0A:00.0 Off |                    0 |
+| N/A   26C    P0              52W / 400W |      4MiB / 40960MiB |      0%      Default |
+|                                         |                      |             Disabled |
++-----------------------------------------+----------------------+----------------------+
+|   2  NVIDIA A100-SXM4-40GB          On  | 00000000:47:00.0 Off |                    0 |
+| N/A   27C    P0              54W / 400W |      4MiB / 40960MiB |      0%      Default |
+|                                         |                      |             Disabled |
++-----------------------------------------+----------------------+----------------------+
+|   3  NVIDIA A100-SXM4-40GB          On  | 00000000:4D:00.0 Off |                    0 |
+| N/A   29C    P0              52W / 400W |      4MiB / 40960MiB |      0%      Default |
+|                                         |                      |             Disabled |
++-----------------------------------------+----------------------+----------------------+
+|   4  NVIDIA A100-SXM4-40GB          On  | 00000000:87:00.0 Off |                    0 |
+| N/A   29C    P0              52W / 400W |      4MiB / 40960MiB |      0%      Default |
+|                                         |                      |             Disabled |
++-----------------------------------------+----------------------+----------------------+
+|   5  NVIDIA A100-SXM4-40GB          On  | 00000000:8D:00.0 Off |                    0 |
+| N/A   28C    P0              54W / 400W |      4MiB / 40960MiB |      0%      Default |
+|                                         |                      |             Disabled |
++-----------------------------------------+----------------------+----------------------+
+|   6  NVIDIA A100-SXM4-40GB          On  | 00000000:C7:00.0 Off |                    0 |
+| N/A   28C    P0              57W / 400W |      4MiB / 40960MiB |      0%      Default |
+|                                         |                      |             Disabled |
++-----------------------------------------+----------------------+----------------------+
+|   7  NVIDIA A100-SXM4-40GB          On  | 00000000:CA:00.0 Off |                    0 |
+| N/A   30C    P0              56W / 400W |      4MiB / 40960MiB |      0%      Default |
+|                                         |                      |             Disabled |
++-----------------------------------------+----------------------+----------------------+
+                                                                                         
++---------------------------------------------------------------------------------------+
+| Processes:                                                                            |
+|  GPU   GI   CI        PID   Type   Process name                            GPU Memory |
+|        ID   ID                                                             Usage      |
+|=======================================================================================|
+|  No running processes found                                                           |
++---------------------------------------------------------------------------------------+
+Found 46 TIFs.
+[array] task 7: /ceph.groups/mshahbazi.grp/rsakata/EXP58/LIF2TIF/setA_T3/LIF2TIF/EXP58_setA_T3_DAPI_GATA3_GFP_ZO1_NANOG_serie_7 - 6_3-2.tif
+
+=== Processing: EXP58_setA_T3_DAPI_GATA3_GFP_ZO1_NANOG_serie_7 - 6_3-2.tif ===
+  Saved mask: /ceph.groups/mshahbazi.grp/rsakata/EXP58/output/setA_T3/2_cytoseg/EXP58_setA_T3_DAPI_GATA3_GFP_ZO1_NANOG_serie_7 - 6_3-2_mask.tif  (voxels=799994)
+  Saved QC: /ceph.groups/mshahbazi.grp/rsakata/EXP58/output/setA_T3/2_cytoseg/EXP58_setA_T3_DAPI_GATA3_GFP_ZO1_NANOG_serie_7 - 6_3-2_qc.png
+
+Done in 4.4s

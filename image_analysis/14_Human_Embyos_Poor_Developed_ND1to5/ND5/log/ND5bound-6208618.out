@@ -1,0 +1,9 @@
+lmbwide.profile complete
+Job 6208618 on fmg22.lmb.internal
+Python 3.11.13
+/lmb/home/rsakata/anaconda3/envs/cellpose_env/bin/python
+CUDA available: False
+Torch CUDA runtime: 12.8
+Visible GPUs: 0
+No devices were found
+nvidia-smi not available

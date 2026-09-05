@@ -1,0 +1,82 @@
+lmbwide.profile complete
+Job 6159339 on fmg101.lmb.internal
+Thu Jan  8 12:05:41 GMT 2026
+Python 3.11.13
+/lmb/home/rsakata/anaconda3/envs/cellpose_env/bin/python
+CUDA available: True
+Torch CUDA runtime: 12.8
+Visible GPUs: 0
+Thu Jan  8 12:05:44 2026       
++---------------------------------------------------------------------------------------+
+| NVIDIA-SMI 535.86.10              Driver Version: 535.86.10    CUDA Version: 12.2     |
+|-----------------------------------------+----------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |         Memory-Usage | GPU-Util  Compute M. |
+|                                         |                      |               MIG M. |
+|=========================================+======================+======================|
+|   0  NVIDIA A100-SXM4-40GB          On  | 00000000:87:00.0 Off |                    0 |
+| N/A   31C    P0              53W / 400W |      4MiB / 40960MiB |      0%      Default |
+|                                         |                      |             Disabled |
++-----------------------------------------+----------------------+----------------------+
+                                                                                         
++---------------------------------------------------------------------------------------+
+| Processes:                                                                            |
+|  GPU   GI   CI        PID   Type   Process name                            GPU Memory |
+|        ID   ID                                                             Usage      |
+|=======================================================================================|
+|  No running processes found                                                           |
++---------------------------------------------------------------------------------------+
+Processing EXP63_setA_T3_DAPI_GATA3_GFP_ZO1_NANOG_serie_1 - 5_1-1
+Processing EXP63_setA_T3_DAPI_GATA3_GFP_ZO1_NANOG_serie_10 - 7_1
+Processing EXP63_setA_T3_DAPI_GATA3_GFP_ZO1_NANOG_serie_11 - 7_2
+Processing EXP63_setA_T3_DAPI_GATA3_GFP_ZO1_NANOG_serie_12 - 7_3
+Processing EXP63_setA_T3_DAPI_GATA3_GFP_ZO1_NANOG_serie_13 - 7_4
+Processing EXP63_setA_T3_DAPI_GATA3_GFP_ZO1_NANOG_serie_14 - 8_1
+Processing EXP63_setA_T3_DAPI_GATA3_GFP_ZO1_NANOG_serie_15 - 8_2
+Processing EXP63_setA_T3_DAPI_GATA3_GFP_ZO1_NANOG_serie_16 - 8_3
+Processing EXP63_setA_T3_DAPI_GATA3_GFP_ZO1_NANOG_serie_17 - 8_4
+Processing EXP63_setA_T3_DAPI_GATA3_GFP_ZO1_NANOG_serie_18 - 8_5
+Processing EXP63_setA_T3_DAPI_GATA3_GFP_ZO1_NANOG_serie_19 - 8_6-1
+Processing EXP63_setA_T3_DAPI_GATA3_GFP_ZO1_NANOG_serie_19 - 8_6-2
+Processing EXP63_setA_T3_DAPI_GATA3_GFP_ZO1_NANOG_serie_19 - 8_6-3
+Processing EXP63_setA_T3_DAPI_GATA3_GFP_ZO1_NANOG_serie_19 - 8_6-4
+Processing EXP63_setA_T3_DAPI_GATA3_GFP_ZO1_NANOG_serie_2 - 5_2
+Processing EXP63_setA_T3_DAPI_GATA3_GFP_ZO1_NANOG_serie_20 - 8_7-1
+Processing EXP63_setA_T3_DAPI_GATA3_GFP_ZO1_NANOG_serie_21 - 12_1
+Processing EXP63_setA_T3_DAPI_GATA3_GFP_ZO1_NANOG_serie_22 - 12_2-1
+Processing EXP63_setA_T3_DAPI_GATA3_GFP_ZO1_NANOG_serie_24 - 12_4-1
+Processing EXP63_setA_T3_DAPI_GATA3_GFP_ZO1_NANOG_serie_25 - 12_5-1
+Processing EXP63_setA_T3_DAPI_GATA3_GFP_ZO1_NANOG_serie_26 - 12_6-1
+Processing EXP63_setA_T3_DAPI_GATA3_GFP_ZO1_NANOG_serie_27 - 12_7-1
+Processing EXP63_setA_T3_DAPI_GATA3_GFP_ZO1_NANOG_serie_28 - 11_1
+Processing EXP63_setA_T3_DAPI_GATA3_GFP_ZO1_NANOG_serie_29 - 11_2-1
+Processing EXP63_setA_T3_DAPI_GATA3_GFP_ZO1_NANOG_serie_3 - 5_3
+Processing EXP63_setA_T3_DAPI_GATA3_GFP_ZO1_NANOG_serie_30 - 10_1-1
+Processing EXP63_setA_T3_DAPI_GATA3_GFP_ZO1_NANOG_serie_31 - 10_2-1
+Processing EXP63_setA_T3_DAPI_GATA3_GFP_ZO1_NANOG_serie_32 - 10_3
+Processing EXP63_setA_T3_DAPI_GATA3_GFP_ZO1_NANOG_serie_33 - 10_4-1
+Processing EXP63_setA_T3_DAPI_GATA3_GFP_ZO1_NANOG_serie_34 - 10_5-1
+Processing EXP63_setA_T3_DAPI_GATA3_GFP_ZO1_NANOG_serie_36 - 10_7-1
+Processing EXP63_setA_T3_DAPI_GATA3_GFP_ZO1_NANOG_serie_37 - 10_8-1
+Processing EXP63_setA_T3_DAPI_GATA3_GFP_ZO1_NANOG_serie_38 - 9_1
+Processing EXP63_setA_T3_DAPI_GATA3_GFP_ZO1_NANOG_serie_39 - 9_2
+Processing EXP63_setA_T3_DAPI_GATA3_GFP_ZO1_NANOG_serie_4 - 5_4
+Processing EXP63_setA_T3_DAPI_GATA3_GFP_ZO1_NANOG_serie_40 - 9_3-1
+Processing EXP63_setA_T3_DAPI_GATA3_GFP_ZO1_NANOG_serie_41 - 9_4-1
+Processing EXP63_setA_T3_DAPI_GATA3_GFP_ZO1_NANOG_serie_42 - 9_5
+Processing EXP63_setA_T3_DAPI_GATA3_GFP_ZO1_NANOG_serie_43 - 9_6
+Processing EXP63_setA_T3_DAPI_GATA3_GFP_ZO1_NANOG_serie_5 - 6_1-1
+Processing EXP63_setA_T3_DAPI_GATA3_GFP_ZO1_NANOG_serie_5 - 6_1-2
+Processing EXP63_setA_T3_DAPI_GATA3_GFP_ZO1_NANOG_serie_6 - 6_2
+Processing EXP63_setA_T3_DAPI_GATA3_GFP_ZO1_NANOG_serie_7 - 6_3
+Processing EXP63_setA_T3_DAPI_GATA3_GFP_ZO1_NANOG_serie_8 - 6_4
+Processing EXP63_setA_T3_DAPI_GATA3_GFP_ZO1_NANOG_serie_9 - 6_5-1
+Wrote /ceph.groups/mshahbazi.grp/rsakata/EXP63/output/setA_T3/3_cytomask_intensities
+                                                file    Z  ...  ZO1_mean  NANOG_mean
+0  EXP63_setA_T3_DAPI_GATA3_GFP_ZO1_NANOG_serie_1...  109  ...  6.775059    1.129808
+1  EXP63_setA_T3_DAPI_GATA3_GFP_ZO1_NANOG_serie_1...   95  ...  5.489071    1.276356
+2  EXP63_setA_T3_DAPI_GATA3_GFP_ZO1_NANOG_serie_1...  110  ...  5.158541    1.780645
+3  EXP63_setA_T3_DAPI_GATA3_GFP_ZO1_NANOG_serie_1...  106  ...  3.952796    0.896091
+4  EXP63_setA_T3_DAPI_GATA3_GFP_ZO1_NANOG_serie_1...  187  ...  3.980601    0.884109
+
+[5 rows x 10 columns]

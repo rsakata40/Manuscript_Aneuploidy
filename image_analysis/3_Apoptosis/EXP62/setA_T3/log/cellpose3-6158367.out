@@ -1,0 +1,48 @@
+lmbwide.profile complete
+Job 6158367 on fmg101.lmb.internal
+Python 3.11.13
+/lmb/home/rsakata/anaconda3/envs/cellpose_env/bin/python
+CUDA available: True
+Torch CUDA runtime: 12.8
+Visible GPUs: 0
+Wed Jan  7 21:04:59 2026       
++---------------------------------------------------------------------------------------+
+| NVIDIA-SMI 535.86.10              Driver Version: 535.86.10    CUDA Version: 12.2     |
+|-----------------------------------------+----------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |         Memory-Usage | GPU-Util  Compute M. |
+|                                         |                      |               MIG M. |
+|=========================================+======================+======================|
+|   0  NVIDIA A100-SXM4-40GB          On  | 00000000:87:00.0 Off |                    0 |
+| N/A   40C    P0              55W / 400W |      4MiB / 40960MiB |      0%      Default |
+|                                         |                      |             Disabled |
++-----------------------------------------+----------------------+----------------------+
+                                                                                         
++---------------------------------------------------------------------------------------+
+| Processes:                                                                            |
+|  GPU   GI   CI        PID   Type   Process name                            GPU Memory |
+|        ID   ID                                                             Usage      |
+|=======================================================================================|
+|  No running processes found                                                           |
++---------------------------------------------------------------------------------------+
+
+
+Welcome to CellposeSAM, cellpose v
+cellpose version: 	4.0.6 
+platform:       	linux 
+python version: 	3.11.13 
+torch version:  	2.8.0+cu128! The neural network component of
+CPSAM is much larger than in previous versions and CPU excution is slow. 
+We encourage users to use GPU/MPS if available. 
+
+
+GPU available to Cellpose: True
+Found 43 TIFs
+[array] task 19: /ceph.groups/mshahbazi.grp/rsakata/EXP62/LIF2TIF/setA_T3/EXP62_setA_T3_DAPI_GATA3_GFP_ZO1_NANOG_serie_17 - 12_3.tif
+
+== EXP62_setA_T3_DAPI_GATA3_GFP_ZO1_NANOG_serie_17 - 12_3.tif → 12_3
+Objects: 239
+Saved: /ceph.groups/mshahbazi.grp/rsakata/EXP62/output/setA_T3/1_cellpose/12_3_nucleus_intensity.csv
+Saved: /ceph.groups/mshahbazi.grp/rsakata/EXP62/output/setA_T3/1_cellpose/12_3_mosaic_Image1_a-b.png
+
+All done in 88.1s

@@ -1,0 +1,35 @@
+lmbwide.profile complete
+Job 6383145 on fmg102.lmb.internal
+Python 3.11.13
+/lmb/home/rsakata/anaconda3/envs/cellpose_env/bin/python
+CUDA available: True
+Torch CUDA runtime: 12.8
+Visible GPUs: 0
+Tue Apr 14 20:44:15 2026       
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 595.58.03              Driver Version: 595.58.03      CUDA Version: 13.2     |
++-----------------------------------------+------------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+|   0  NVIDIA A100-SXM4-40GB          Off |   00000000:C7:00.0 Off |                    0 |
+| N/A   24C    P0             50W /  400W |       0MiB /  40960MiB |      0%      Default |
+|                                         |                        |             Disabled |
++-----------------------------------------+------------------------+----------------------+
+
++-----------------------------------------------------------------------------------------+
+| Processes:                                                                              |
+|  GPU   GI   CI              PID   Type   Process name                        GPU Memory |
+|        ID   ID                                                               Usage      |
+|=========================================================================================|
+|  No running processes found                                                             |
++-----------------------------------------------------------------------------------------+
+Found 53 TIFs.
+[array] task 3: /ceph.groups/mshahbazi.grp/rsakata/EXP62/LIF2TIF/setB_T3/EXP62_setB_T3_DAPI_phalloidin_GFP_ECAD_caspase3_serie_4 - 5_4.tif
+
+=== Processing: EXP62_setB_T3_DAPI_phalloidin_GFP_ECAD_caspase3_serie_4 - 5_4.tif ===
+  Saved mask: /ceph.groups/mshahbazi.grp/rsakata/EXP62/output/setB_T3/2_cytoseg/EXP62_setB_T3_DAPI_phalloidin_GFP_ECAD_caspase3_serie_4 - 5_4_mask.tif  (voxels=1527059)
+  Saved QC: /ceph.groups/mshahbazi.grp/rsakata/EXP62/output/setB_T3/2_cytoseg/EXP62_setB_T3_DAPI_phalloidin_GFP_ECAD_caspase3_serie_4 - 5_4_qc.png
+
+Done in 49.0s

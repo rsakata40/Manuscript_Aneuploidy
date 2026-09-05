@@ -1,0 +1,203 @@
+lmbwide.profile complete
+Job 6161789 on fmg103.lmb.internal
+Python 3.11.13
+/lmb/home/rsakata/anaconda3/envs/cellpose_env/bin/python
+CUDA available: True
+Torch CUDA runtime: 12.8
+Visible GPUs: 0
+Sat Jan 10 11:24:30 2026       
++---------------------------------------------------------------------------------------+
+| NVIDIA-SMI 535.86.10              Driver Version: 535.86.10    CUDA Version: 12.2     |
+|-----------------------------------------+----------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |         Memory-Usage | GPU-Util  Compute M. |
+|                                         |                      |               MIG M. |
+|=========================================+======================+======================|
+|   0  NVIDIA A100-SXM4-40GB          Off | 00000000:C9:00.0 Off |                    0 |
+| N/A   28C    P0              54W / 400W |      4MiB / 40960MiB |      0%      Default |
+|                                         |                      |             Disabled |
++-----------------------------------------+----------------------+----------------------+
+                                                                                         
++---------------------------------------------------------------------------------------+
+| Processes:                                                                            |
+|  GPU   GI   CI        PID   Type   Process name                            GPU Memory |
+|        ID   ID                                                             Usage      |
+|=======================================================================================|
+|  No running processes found                                                           |
++---------------------------------------------------------------------------------------+
+
+
+Welcome to CellposeSAM, cellpose v
+cellpose version: 	4.0.6 
+platform:       	linux 
+python version: 	3.11.13 
+torch version:  	2.8.0+cu128! The neural network component of
+CPSAM is much larger than in previous versions and CPU excution is slow. 
+We encourage users to use GPU/MPS if available. 
+
+
+Imports complete
+Initializing Cellpose model...
+Model loaded. GPU: True
+Found 53 files to process in /ceph.groups/mshahbazi.grp/rsakata/EXP62/LIF2TIF/setB_T3
+
+[1/53] Processing: 5_1
+  [Skip] Output exists in: /ceph.groups/mshahbazi.grp/rsakata/EXP62/output/setB_T3/5_1
+
+[2/53] Processing: 5_2
+  [Skip] Output exists in: /ceph.groups/mshahbazi.grp/rsakata/EXP62/output/setB_T3/5_2
+
+[3/53] Processing: 5_3
+  [Skip] Output exists in: /ceph.groups/mshahbazi.grp/rsakata/EXP62/output/setB_T3/5_3
+
+[4/53] Processing: 5_4
+  [Skip] Output exists in: /ceph.groups/mshahbazi.grp/rsakata/EXP62/output/setB_T3/5_4
+
+[5/53] Processing: 6_1
+  [Skip] Output exists in: /ceph.groups/mshahbazi.grp/rsakata/EXP62/output/setB_T3/6_1
+
+[6/53] Processing: 6_2-1
+!!! Error processing 6_2-1: 'Y'
+
+[7/53] Processing: 6_2-2
+!!! Error processing 6_2-2: 'Y'
+
+[8/53] Processing: 6_3
+  [Skip] Output exists in: /ceph.groups/mshahbazi.grp/rsakata/EXP62/output/setB_T3/6_3
+
+[9/53] Processing: 6_4-1
+!!! Error processing 6_4-1: 'Y'
+
+[10/53] Processing: 6_4-2
+!!! Error processing 6_4-2: 'Y'
+
+[11/53] Processing: 6_5-1
+!!! Error processing 6_5-1: 'Y'
+
+[12/53] Processing: 6_6
+  [Skip] Output exists in: /ceph.groups/mshahbazi.grp/rsakata/EXP62/output/setB_T3/6_6
+
+[13/53] Processing: 7_1
+  [Skip] Output exists in: /ceph.groups/mshahbazi.grp/rsakata/EXP62/output/setB_T3/7_1
+
+[14/53] Processing: 7_2-1
+!!! Error processing 7_2-1: 'X'
+
+[15/53] Processing: 7_3
+  [Skip] Output exists in: /ceph.groups/mshahbazi.grp/rsakata/EXP62/output/setB_T3/7_3
+
+[16/53] Processing: 7_4
+  [Skip] Output exists in: /ceph.groups/mshahbazi.grp/rsakata/EXP62/output/setB_T3/7_4
+
+[17/53] Processing: 7_5
+  [Skip] Output exists in: /ceph.groups/mshahbazi.grp/rsakata/EXP62/output/setB_T3/7_5
+
+[18/53] Processing: 8_1-1
+!!! Error processing 8_1-1: 'Y'
+
+[19/53] Processing: 8_1-2
+!!! Error processing 8_1-2: 'Y'
+
+[20/53] Processing: 8_1-3
+!!! Error processing 8_1-3: 'Y'
+
+[21/53] Processing: 8_2-1
+!!! Error processing 8_2-1: 'Y'
+
+[22/53] Processing: 8_2-2
+!!! Error processing 8_2-2: 'Y'
+
+[23/53] Processing: 8_3-1
+!!! Error processing 8_3-1: 'Y'
+
+[24/53] Processing: 8_3-2
+!!! Error processing 8_3-2: 'Y'
+
+[25/53] Processing: 8_4-1
+!!! Error processing 8_4-1: 'Y'
+
+[26/53] Processing: 8_4-2
+!!! Error processing 8_4-2: 'Y'
+
+[27/53] Processing: 8_4-3
+!!! Error processing 8_4-3: 'Y'
+
+[28/53] Processing: 8_5-1
+!!! Error processing 8_5-1: 'Y'
+
+[29/53] Processing: 8_5-2
+!!! Error processing 8_5-2: 'Y'
+
+[30/53] Processing: 8_6-1
+!!! Error processing 8_6-1: 'Y'
+
+[31/53] Processing: 8_6-2
+!!! Error processing 8_6-2: 'Y'
+
+[32/53] Processing: 12_1-1
+!!! Error processing 12_1-1: 'Y'
+
+[33/53] Processing: 12_1-2
+!!! Error processing 12_1-2: 'Y'
+
+[34/53] Processing: 12_2-2
+!!! Error processing 12_2-2: 'Y'
+
+[35/53] Processing: 12_3-1
+!!! Error processing 12_3-1: 'Y'
+
+[36/53] Processing: 12_3-2
+!!! Error processing 12_3-2: 'Y'
+
+[37/53] Processing: 12_4
+  [Skip] Output exists in: /ceph.groups/mshahbazi.grp/rsakata/EXP62/output/setB_T3/12_4
+
+[38/53] Processing: 12_5
+  [Skip] Output exists in: /ceph.groups/mshahbazi.grp/rsakata/EXP62/output/setB_T3/12_5
+
+[39/53] Processing: 12_6
+  [Skip] Output exists in: /ceph.groups/mshahbazi.grp/rsakata/EXP62/output/setB_T3/12_6
+
+[40/53] Processing: 10_1
+  [Skip] Output exists in: /ceph.groups/mshahbazi.grp/rsakata/EXP62/output/setB_T3/10_1
+
+[41/53] Processing: 10_2
+  [Skip] Output exists in: /ceph.groups/mshahbazi.grp/rsakata/EXP62/output/setB_T3/10_2
+
+[42/53] Processing: 10_3
+  [Skip] Output exists in: /ceph.groups/mshahbazi.grp/rsakata/EXP62/output/setB_T3/10_3
+
+[43/53] Processing: 10_4-1
+!!! Error processing 10_4-1: 'Y'
+
+[44/53] Processing: 10_4-2
+!!! Error processing 10_4-2: 'Y'
+
+[45/53] Processing: 10_5
+  [Skip] Output exists in: /ceph.groups/mshahbazi.grp/rsakata/EXP62/output/setB_T3/10_5
+
+[46/53] Processing: 10_6
+  [Skip] Output exists in: /ceph.groups/mshahbazi.grp/rsakata/EXP62/output/setB_T3/10_6
+
+[47/53] Processing: 10_7
+  [Skip] Output exists in: /ceph.groups/mshahbazi.grp/rsakata/EXP62/output/setB_T3/10_7
+
+[48/53] Processing: 9_1
+  [Skip] Output exists in: /ceph.groups/mshahbazi.grp/rsakata/EXP62/output/setB_T3/9_1
+
+[49/53] Processing: 9_2
+  [Skip] Output exists in: /ceph.groups/mshahbazi.grp/rsakata/EXP62/output/setB_T3/9_2
+
+[50/53] Processing: 9_3
+  [Skip] Output exists in: /ceph.groups/mshahbazi.grp/rsakata/EXP62/output/setB_T3/9_3
+
+[51/53] Processing: 9_4
+  [Skip] Output exists in: /ceph.groups/mshahbazi.grp/rsakata/EXP62/output/setB_T3/9_4
+
+[52/53] Processing: 9_5
+  [Skip] Output exists in: /ceph.groups/mshahbazi.grp/rsakata/EXP62/output/setB_T3/9_5
+
+[53/53] Processing: 9_6
+!!! Error processing 9_6: 'Y'
+
+All done in 0.1s

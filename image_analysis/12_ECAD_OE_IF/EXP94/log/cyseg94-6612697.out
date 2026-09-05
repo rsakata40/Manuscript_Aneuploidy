@@ -1,0 +1,35 @@
+lmbwide.profile complete
+Job 6612697 on fmg103.lmb.internal
+Python 3.11.13
+/lmb/home/rsakata/anaconda3/envs/cellpose_env/bin/python
+CUDA available: True
+Torch CUDA runtime: 12.8
+Visible GPUs: 0
+Sat Aug  1 11:10:30 2026       
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 610.43.02              KMD Version: 610.43.02     CUDA UMD Version: 13.3     |
++-----------------------------------------+------------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+|   0  NVIDIA A100-SXM4-40GB          Off |   00000000:07:00.0 Off |                    0 |
+| N/A   29C    P0             56W /  400W |       0MiB /  40960MiB |      0%      Default |
+|                                         |                        |             Disabled |
++-----------------------------------------+------------------------+----------------------+
+
++-----------------------------------------------------------------------------------------+
+| Processes:                                                                              |
+|  GPU   GI   CI              PID   Type   Process name                        GPU Memory |
+|        ID   ID                                                               Usage      |
+|=========================================================================================|
+|  No running processes found                                                             |
++-----------------------------------------------------------------------------------------+
+Found 74 TIFs.
+[array] task 18: /ceph.groups/mshahbazi.grp/rsakata/EXP94/all/LIF2TIF/EXP94_DAPI_GATA3_BF_GFP_mcherry_NANOG_serie_17 - 1_17-2.tif
+
+=== Processing: EXP94_DAPI_GATA3_BF_GFP_mcherry_NANOG_serie_17 - 1_17-2.tif ===
+  Saved mask: /ceph.groups/mshahbazi.grp/rsakata/EXP94/all/cellpose/output/2_cytoseg/EXP94_DAPI_GATA3_BF_GFP_mcherry_NANOG_serie_17 - 1_17-2_mask.tif  (voxels=1172944)
+  Saved QC: /ceph.groups/mshahbazi.grp/rsakata/EXP94/all/cellpose/output/2_cytoseg/EXP94_DAPI_GATA3_BF_GFP_mcherry_NANOG_serie_17 - 1_17-2_qc.png
+
+Done in 11.3s

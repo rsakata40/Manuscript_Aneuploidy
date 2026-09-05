@@ -1,0 +1,47 @@
+lmbwide.profile complete
+Job 6630597 on fmg25.lmb.internal
+Python 3.11.13
+/lmb/home/rsakata/anaconda3/envs/cellpose_env/bin/python
+CUDA available: False
+Torch CUDA runtime: 12.8
+Visible GPUs: 0
+Fri Aug  7 11:06:26 2026       
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 595.80                 Driver Version: 595.80         CUDA Version: 13.2     |
++-----------------------------------------+------------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+|   0  NVIDIA GeForce RTX 2080 Ti     On  |   00000000:1F:00.0 Off |                  N/A |
+| 27%   31C    P8             20W /  250W |       1MiB /  11264MiB |      0%      Default |
+|                                         |                        |                  N/A |
++-----------------------------------------+------------------------+----------------------+
+
++-----------------------------------------------------------------------------------------+
+| Processes:                                                                              |
+|  GPU   GI   CI              PID   Type   Process name                        GPU Memory |
+|        ID   ID                                                               Usage      |
+|=========================================================================================|
+|  No running processes found                                                             |
++-----------------------------------------------------------------------------------------+
+
+
+Welcome to CellposeSAM, cellpose v
+cellpose version: 	4.0.6 
+platform:       	linux 
+python version: 	3.11.13 
+torch version:  	2.8.0+cu128! The neural network component of
+CPSAM is much larger than in previous versions and CPU excution is slow. 
+We encourage users to use GPU/MPS if available. 
+
+
+Initializing Cellpose model...
+Model loaded. GPU: False
+Found 5 TIFF files in /ceph.groups/mshahbazi.grp/rsakata/HE_Nondeveloping5/LIF2TIF
+[array] task 0: /ceph.groups/mshahbazi.grp/rsakata/HE_Nondeveloping5/LIF2TIF/Nondeveloping5_serie_1 - MS1167.tif
+
+[1/1] Processing: MS1167
+  [Skip] Completed previously: /ceph.groups/mshahbazi.grp/rsakata/HE_Nondeveloping5/output/cellpose_boundary3/MS1167/MS1167.complete
+
+All done in 0.1 s

@@ -1,0 +1,62 @@
+lmbwide.profile complete
+Job 6630593 on fmg25.lmb.internal
+Python 3.11.13
+/lmb/home/rsakata/anaconda3/envs/cellpose_env/bin/python
+CUDA available: False
+Torch CUDA runtime: 12.8
+Visible GPUs: 0
+Fri Aug  7 11:05:00 2026       
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 595.80                 Driver Version: 595.80         CUDA Version: 13.2     |
++-----------------------------------------+------------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+|   0  NVIDIA GeForce RTX 2080 Ti     On  |   00000000:21:00.0 Off |                  N/A |
+| 27%   31C    P8             22W /  250W |       1MiB /  11264MiB |      0%      Default |
+|                                         |                        |                  N/A |
++-----------------------------------------+------------------------+----------------------+
+
++-----------------------------------------------------------------------------------------+
+| Processes:                                                                              |
+|  GPU   GI   CI              PID   Type   Process name                        GPU Memory |
+|        ID   ID                                                               Usage      |
+|=========================================================================================|
+|  No running processes found                                                             |
++-----------------------------------------------------------------------------------------+
+
+
+Welcome to CellposeSAM, cellpose v
+cellpose version: 	4.0.6 
+platform:       	linux 
+python version: 	3.11.13 
+torch version:  	2.8.0+cu128! The neural network component of
+CPSAM is much larger than in previous versions and CPU excution is slow. 
+We encourage users to use GPU/MPS if available. 
+
+
+Initializing Cellpose model...
+Model loaded. GPU: False
+Found 4 TIFF files in /ceph.groups/mshahbazi.grp/rsakata/HE_Nondeveloping4/LIF2TIF
+[array] task 3: /ceph.groups/mshahbazi.grp/rsakata/HE_Nondeveloping4/LIF2TIF/Nondeveloping4_re_serie_4 - MS906.tif
+
+[1/1] Processing: MS906
+  > Voxel size 0.5687 µm/px agrees with file metadata.
+  > Axes from file axes metadata (ZCYX): (176, 5, 512, 512) -> (176, 5, 512, 512) (Z,C,Y,X)
+  > Z=176, C=5, Y=512, X=512; pixel 0.5687 um; cell-mask min_size=31 px (= 10.0 um2); DAPI-mask min_size=31 px (= 10.0 um2)
+  > Segmenting cell masks in 176 slices using ['ECAD', 'DAPI']...
+  > 3883 slice-local cell masks across 174/176 slices
+  > Segmenting DAPI masks in 176 slices using ['DAPI']...
+  > 3445 slice-local DAPI masks across 176/176 slices
+  > Object area um2: p5=52 median=135 p95=269 (cutoff 10.0)
+  > Finding interfaces, assigning DAPI masks, and sampling ribbons...
+  > DAPI assignment: 3300 cell masks assigned from 3413 DAPI masks; 382 geometric pairs removed because one or both cells lacked a valid DAPI mask
+  [QC] 22 DAPI-mask assignments involved cells with multiple candidate nuclei; the strongest-overlap nucleus was retained
+  > 1351 interfaces retained after geometry and mandatory DAPI-mask filtering (1733 geometric; 2539 candidates)
+  [QC] ECAD peak vs geometric zero: median +0.00 µm, IQR -2.00 to +1.50 µm, n=1351 (reported only, not applied)
+  > Saved pair statistics: /ceph.groups/mshahbazi.grp/rsakata/HE_Nondeveloping4/output/cellpose_boundary3/MS906/MS906_pair_stats.csv (1351 pairs)
+  > Saved summary: /ceph.groups/mshahbazi.grp/rsakata/HE_Nondeveloping4/output/cellpose_boundary3/MS906/MS906_summary.csv
+  > Saved profiles: /ceph.groups/mshahbazi.grp/rsakata/HE_Nondeveloping4/output/cellpose_boundary3/MS906/MS906_profiles.csv (140595 rows)
+
+All done in 71589.9 s

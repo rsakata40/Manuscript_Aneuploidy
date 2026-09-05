@@ -1,0 +1,49 @@
+lmbwide.profile complete
+Job 6629025 on fmg34.lmb.internal
+Python 3.11.13
+/lmb/home/rsakata/anaconda3/envs/cellpose_env/bin/python
+CUDA available: True
+Torch CUDA runtime: 12.8
+Visible GPUs: 0
+Thu Aug  6 12:40:20 2026       
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 570.153.02             Driver Version: 570.153.02     CUDA Version: 12.8     |
+|-----------------------------------------+------------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+|   0  NVIDIA GeForce RTX 2080 Ti     On  |   00000000:23:00.0 Off |                  N/A |
+| 27%   31C    P8              9W /  250W |       1MiB /  11264MiB |      0%      Default |
+|                                         |                        |                  N/A |
++-----------------------------------------+------------------------+----------------------+
+                                                                                         
++-----------------------------------------------------------------------------------------+
+| Processes:                                                                              |
+|  GPU   GI   CI              PID   Type   Process name                        GPU Memory |
+|        ID   ID                                                               Usage      |
+|=========================================================================================|
+|  No running processes found                                                             |
++-----------------------------------------------------------------------------------------+
+
+
+Welcome to CellposeSAM, cellpose v
+cellpose version: 	4.0.6 
+platform:       	linux 
+python version: 	3.11.13 
+torch version:  	2.8.0+cu128! The neural network component of
+CPSAM is much larger than in previous versions and CPU excution is slow. 
+We encourage users to use GPU/MPS if available. 
+
+
+Initializing Cellpose model...
+Model loaded. GPU: True
+Found 4 TIFF files in /ceph.groups/mshahbazi.grp/rsakata/HE_Nondeveloping4/LIF2TIF
+[array] task 2: /ceph.groups/mshahbazi.grp/rsakata/HE_Nondeveloping4/LIF2TIF/Nondeveloping4_re_serie_3 - MS929.tif
+
+[1/1] Processing: MS929
+  > Voxel size 0.5687 µm/px agrees with file metadata.
+  > Axes from file axes metadata (ZCYX): (95, 5, 512, 512) -> (95, 5, 512, 512) (Z,C,Y,X)
+!!! Error processing MS929: Channel 'DAPI' not in CHANNEL_ORDER=['dapi', 'GATA4', 'NANOG', 'GATA3', 'ECAD']
+
+All done in 0.8 s
