@@ -41,9 +41,9 @@ Installation as a standalone software package is not required.
 
 ## Software environments
 
-Environment files required for selected analyses are available under. Details for other software used is available in the methods section of the manuscript. 
-`environments/`.
+Environment files required for selected analyses are available under`environments/`. 
 - R_EEPT.yml : for running sc_05_EEPT (Celltype prediction using Early Embryo Prediction Tool)
 - env_scploid.yml: for running sc_04_scploid (Aneuploidy inference using scploid)
 - py_decoupler.yml: for running sc_08_geneexpression (Gene Expression analysis)
 - py_scanpy.yml: for running sc_03_scanpy_integration, sc_02_scanpy_persample (scanpy analysis)
+Details of other software used are available in the methods section of the manuscript.
