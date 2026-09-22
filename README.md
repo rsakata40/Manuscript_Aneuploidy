@@ -16,28 +16,30 @@ Installation as a standalone software package is not required.
 3. Dataset integration and cell-type annotation
 4. Aneuploidy inference using scploid
 5. Celltype prediction using Early Embryo Prediction Tool (EEPT)
-6. Phasing PacBio HiFi reads
-7. Aneuploidy inference using XClone
+6. Phasing PacBio HiFi reads*
+7. Aneuploidy inference using XClone*
 8. Gene Expression analysis
 9. Analysis of human embryo datasets
+- analysis with * may take longer than a day to finish running. 
 
 ## Image analysis
 
 1. Plots of BF(brightfield) counts of developed and failed blastoids
-2. Analysis of EGFP and mcherry cells in blastoids
-3. Analysis of apoptosis in blastoids
-4. Analysis of marker gene expression in blastoids
+2. Analysis of EGFP and mcherry cells in blastoids*
+3. Analysis of apoptosis in blastoids*
+4. Analysis of marker gene expression in blastoids*
 5. Plots of BF counts of developed and failed blastoids, with different number of reversine treated cells
 6. Plots of BF counts of developed and failed blastoids, with different proportion of reversine treated cells
 7. Plots of BF counts of developed and failed blastoids, with apoptosis inhibition (using ZVAD-FMK)
-8. Analysis of cell counts and marker genes with apoptosis inhibition
-9. Analysis of intensity of E-cadherin levels along cell boundary 
-10. Analysis of marker genes of blastoids formed with CDH1 targeting siRNA
+8. Analysis of cell counts and marker genes with apoptosis inhibition*
+9. Analysis of intensity of E-cadherin levels along cell boundary *
+10. Analysis of marker genes of blastoids formed with CDH1 targeting siRNA*
 11. Plots of BF counts of developed and failed blastoids, with E-cadherin over expression
-12. Analysis of marker genes of blastoids formed with E-cadherin over expression
+12. Analysis of marker genes of blastoids formed with E-cadherin over expression*
 13. Anaysis of marker genes in aneuploid human embryos
 14. Analysis of marker genes in developed and poor quality human embryos
-- A small immunofluorescence image dataset is included to test codes which require computational analysis of images. 
+- A small immunofluorescence image dataset is included to test codes which require computational analysis of images.
+- analysis with * may take longer than a day to run for all images used in the manuscript. 
 
 ## Software environments
 
