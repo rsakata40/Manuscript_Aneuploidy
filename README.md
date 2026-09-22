@@ -1,10 +1,12 @@
-This repository contains analysis code associated with the manuscript (Installation as a standalone software package is not required).
+This repository contains analysis code associated with the manuscript
 **"Distinct fates of aneuploid cells shape human blastoid development."**
+Installation as a standalone software package is not required.
 
 ## Repository structure
 
 - directories with prefix `sc_` — includes codes for single-cell RNA-sequencing processing, and aneuploidy inference.
 - directories with prefix `img_` — includes codes for quantitative analysis of microscopy and imaging data.
+- within each directory, R and python codes are generally used for preprocessing while Jupyter notebooks are used for visualising the output. Bash codes are used for submitting jobs that require larger computing resources. 
 - `environments` — software environment files used for the analyses.
 
 ## scRNA-seq analysis
@@ -35,6 +37,7 @@ This repository contains analysis code associated with the manuscript (Installat
 12. Analysis of marker genes of blastoids formed with E-cadherin over expression
 13. Anaysis of marker genes in aneuploid human embryos
 14. Analysis of marker genes in developed and poor quality human embryos
+- A small immunofluorescence image dataset is included to test codes which require computational analysis of images. 
 
 ## Software environments
 
