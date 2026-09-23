@@ -6,7 +6,7 @@ Installation as a standalone software package is not required.
 
 - directories with prefix `sc_` — includes codes for single-cell RNA-sequencing processing, and aneuploidy inference.
 - directories with prefix `img_` — includes codes for quantitative analysis of microscopy and imaging data.
-- within each directory, R and python codes are generally used for preprocessing while Jupyter notebooks are used for visualising the output. Bash codes are used for submitting jobs that require larger computing resources. 
+- within each directory, R and python codes are generally first used for preprocessing, while Jupyter notebooks are then used for visualising the output.
 - `environments` — software environment files used for the analyses.
 
 ## scRNA-seq analysis
@@ -38,7 +38,7 @@ Installation as a standalone software package is not required.
 12. Analysis of marker genes of blastoids formed with E-cadherin over expression*
 13. Anaysis of marker genes in aneuploid human embryos
 14. Analysis of marker genes in developed and poor quality human embryos
-- A small immunofluorescence image dataset is included to test codes which require computational analysis of images.
+- several images in '/test_image' are included to test codes which require computational analysis of images.
 - analysis with * may take longer than a day to run for all images used in the manuscript. 
 
 ## Software environments
